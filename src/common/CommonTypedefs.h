@@ -23,6 +23,7 @@
 #define haf1c6298_a459_4417_83c1_ed084705400a
 
 #include <vector>
+#include <stddef.h>
 
 //namespace dymo
 namespace DymoPrinterDriver

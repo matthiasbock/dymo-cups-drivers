@@ -1,0 +1,12 @@
+Makefile
+*.o
+
+config.log
+config.status
+src/config.h
+src/lm/raster2dymolm
+src/lw/raster2dymolw
+src/stamp-h1
+
+*/*/.deps/
+*/*/*/.deps/
