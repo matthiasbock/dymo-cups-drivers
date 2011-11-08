@@ -1,0 +1,58 @@
+%!PS-Adobe-3.0
+%%BoundingBox: 0 0 612 792
+%%Pages: 1
+%%LanguageLevel: 1
+%%DocumentData: Clean7Bit
+%%DocumentSuppliedResources: procset testprint/1.1
+%%DocumentNeededResources: font Helvetica Helvetica-Bold Times-Roman
+%%Title: Test Page
+%%EndComments
+%%BeginProlog
+%%BeginResource procset testprint 1.1 0
+/CENTER {			
+  dup stringwidth pop		
+  0.5 mul neg 0 rmoveto		
+  show				
+}bind def
+%%EndResource
+%%EndProlog
+%%Page: 1 1
+gsave
+
+  initclip newpath clippath pathbbox	
+  72 div /pageTop exch def		
+  72 div /pageRight exch def		
+  72 div /pageBottom exch def		
+  72 div /pageLeft exch def		
+
+  4 setlinewidth			
+  0 setgray closepath stroke		
+  1 setlinewidth			
+
+  /pageWidth pageRight pageLeft sub def	
+  /pageHeight pageTop pageBottom sub def
+
+  /bigFont /Helvetica-Bold findfont
+  18 scalefont def	
+
+  pageLeft 72 mul
+  pageBottom 72 mul
+  translate
+
+  0 setgray			
+
+  pageWidth 36 mul
+  pageHeight 72 mul 18 sub
+  2 copy moveto
+  bigFont setfont
+  (Printer Test Page) CENTER	
+
+  pageWidth 36 mul
+  pageHeight 36 mul 18 sub
+  2 copy moveto
+  bigFont setfont
+  (Hello, World!) CENTER
+
+grestore
+showpage
+%%EOF

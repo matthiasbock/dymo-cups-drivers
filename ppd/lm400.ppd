@@ -1,0 +1,247 @@
+*PPD-Adobe: "4.3"
+
+*% $Id: lm400.ppd 7050 2009-02-07 00:06:12Z vbuzuev $
+
+*% DYMO LabelWriter Drivers
+*% Copyright (C) 2008 Sanford L.P.
+
+*% This program is free software; you can redistribute it and/or
+*% modify it under the terms of the GNU General Public License
+*% as published by the Free Software Foundation; either version 2
+*% of the License, or (at your option) any later version.
+
+*% This program is distributed in the hope that it will be useful,
+*% but WITHOUT ANY WARRANTY; without even the implied warranty of
+*% MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+*% GNU General Public License for more details.
+
+*% You should have received a copy of the GNU General Public License
+*% along with this program; if not, write to the Free Software
+*% Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.
+
+*FormatVersion: "4.3"
+*FileVersion:   "1.0"
+*LanguageVersion: English 
+*LanguageEncoding: ISOLatin1
+*PCFileName:    "LM400.PPD"
+*Manufacturer:  "DYMO"
+*Product:   "(DYMO LabelWriter)"
+*cupsVersion:   1.2
+*cupsManualCopies: False
+*cupsFilter:    "application/vnd.cups-raster 0 raster2dymolm"
+*cupsModelNumber: 0
+*PSVersion: "(3010.000) 550"
+*LanguageLevel: "3"
+*ColorDevice:   False
+*DefaultColorSpace: Gray
+*FileSystem:    False
+*Throughput:    "8"
+*LandscapeOrientation: Minus90
+*VariablePaperSize: True
+*TTRasterizer:  Type42
+
+*ModelName: "DYMO LabelMANAGER 400"
+*NickName: "DYMO LabelMANAGER 400"
+*ShortNickName: "DYMO LabelMANAGER 400"
+
+*% *UIConstraints: *PageSize w18h252 *MediaType 0
+*% *UIConstraints: *PageSize w26h252 *MediaType 1
+*% *UIConstraints: *PageSize w35h252.1 *MediaType 2
+*% *UIConstraints: *PageSize w55h252 *MediaType 3
+*% *UIConstraints: *PageSize w68h252   *MediaType 4
+*% *UIConstraints: *PageSize w35h252           *MediaType 2
+*% *UIConstraints: *PageSize w35h144           *MediaType 2
+*% *UIConstraints: *PageSize w35h252.2    *MediaType 2
+*% *UIConstraints: *PageSize w35h144.1    *MediaType 2
+*% *UIConstraints: *PageSize w68h252.2      *MediaType 4
+
+*OpenUI *MediaType/Label Width: PickOne
+*OrderDependency: 9 AnySetup *MediaType
+*DefaultMediaType: 24mm
+*MediaType 06mm/06 mm (1/4"): "<</cupsMediaType 0>>setpagedevice"
+*MediaType 09mm/09 mm (3/8"): "<</cupsMediaType 1>>setpagedevice"
+*MediaType 12mm/12 mm (1/2"): "<</cupsMediaType 2>>setpagedevice"
+*MediaType 19mm/19 mm (3/4"): "<</cupsMediaType 3>>setpagedevice"
+*MediaType 24mm/24 mm (1"):   "<</cupsMediaType 4>>setpagedevice"
+*CloseUI: *MediaType
+
+*OpenUI *PageSize/Media Size: PickOne
+*OrderDependency: 10 AnySetup *PageSize
+*DefaultPageSize: w68h252.2
+*PageSize w18h252/06 mm (1/4") Label: "<</PageSize[18 252]/ImagingBBox null/cupsMediaType 0>>setpagedevice"
+*PageSize w18h4000/06 mm (1/4") Continuous: "<</PageSize[18 4000]/ImagingBBox null/cupsMediaType 256>>setpagedevice"
+*PageSize w26h252/09 mm (3/8") Label: "<</PageSize[26 252]/ImagingBBox null/cupsMediaType 1>>setpagedevice"
+*PageSize w26h4000/09 mm (3/8") Continuous: "<</PageSize[26 4000]/ImagingBBox null/cupsMediaType 257>>setpagedevice"
+*PageSize w35h252/1/3 File: "<</PageSize[35 252]/ImagingBBox null/cupsMediaType 2>>setpagedevice"
+*PageSize w35h144/1/5 File: "<</PageSize[35 144]/ImagingBBox null/cupsMediaType 2>>setpagedevice"
+*PageSize w35h252.1/12 mm (1/2") Label: "<</PageSize[35 252]/ImagingBBox null/cupsMediaType 2>>setpagedevice"
+*PageSize w35h4000/12 mm (1/2") Continuous: "<</PageSize[35 4000]/ImagingBBox null/cupsMediaType 258>>setpagedevice"
+*PageSize w55h252/19 mm (3/4") Label: "<</PageSize[55 252]/ImagingBBox null/cupsMediaType 3>>setpagedevice"
+*PageSize w55h4000/19 mm (3/4") Continuous: "<</PageSize[55 4000]/ImagingBBox null/cupsMediaType 259>>setpagedevice"
+*PageSize w68h252/24 mm (1") Label: "<</PageSize[68 252]/ImagingBBox null/cupsMediaType 4>>setpagedevice"
+*PageSize w68h4000/24 mm (1") Continuous: "<</PageSize[68 4000]/ImagingBBox null/cupsMediaType 260>>setpagedevice"
+*PageSize w68h252.2/Address Label: "<</PageSize[68 252]/ImagingBBox null/cupsMediaType 4>>setpagedevice"
+*PageSize w35h252.2/Large Pendaflex: "<</PageSize[35 252]/ImagingBBox null/cupsMediaType 2>>setpagedevice"
+*PageSize w35h144.1/Small Pendaflex: "<</PageSize[35 144]/ImagingBBox null/cupsMediaType 2>>setpagedevice"
+*CloseUI: *PageSize
+
+*OpenUI *PageRegion: PickOne
+*OrderDependency: 10 AnySetup *PageRegion
+*DefaultPageRegion: w68h252.2
+*PageRegion w18h252/06 mm (1/4") Label: "<</PageSize[18 252]/ImagingBBox null/cupsMediaType 0>>setpagedevice"
+*PageRegion w18h4000/06 mm (1/4") Continuous: "<</PageSize[18 4000]/ImagingBBox null/cupsMediaType 256>>setpagedevice"
+*PageRegion w26h252/09 mm (3/8") Label: "<</PageSize[26 252]/ImagingBBox null/cupsMediaType 1>>setpagedevice"
+*PageRegion w26h4000/09 mm (3/8") Continuous: "<</PageSize[26 4000]/ImagingBBox null/cupsMediaType 257>>setpagedevice"
+*PageRegion w35h252/1/3 File: "<</PageSize[35 252]/ImagingBBox null/cupsMediaType 2>>setpagedevice"
+*PageRegion w35h144/1/5 File: "<</PageSize[35 144]/ImagingBBox null/cupsMediaType 2>>setpagedevice"
+*PageRegion w35h252.1/12 mm (1/2") Label: "<</PageSize[35 252]/ImagingBBox null/cupsMediaType 2>>setpagedevice"
+*PageRegion w35h4000/12 mm (1/2") Continuous: "<</PageSize[35 4000]/ImagingBBox null/cupsMediaType 258>>setpagedevice"
+*PageRegion w55h252/19 mm (3/4") Label: "<</PageSize[55 252]/ImagingBBox null/cupsMediaType 3>>setpagedevice"
+*PageRegion w55h4000/19 mm (3/4") Continuous: "<</PageSize[55 4000]/ImagingBBox null/cupsMediaType 259>>setpagedevice"
+*PageRegion w68h252/24 mm (1") Label: "<</PageSize[68 252]/ImagingBBox null/cupsMediaType 4>>setpagedevice"
+*PageRegion w68h4000/24 mm (1") Continuous: "<</PageSize[68 4000]/ImagingBBox null/cupsMediaType 260>>setpagedevice"
+*PageRegion w68h252.2/Address Label: "<</PageSize[68 252]/ImagingBBox null/cupsMediaType 4>>setpagedevice"
+*PageRegion w35h252.2/Large Pendaflex: "<</PageSize[35 252]/ImagingBBox null/cupsMediaType 2>>setpagedevice"
+*PageRegion w35h144.1/Small Pendaflex: "<</PageSize[35 144]/ImagingBBox null/cupsMediaType 2>>setpagedevice"
+*CloseUI: *PageRegion
+
+*DefaultImageableArea: w68h252.2
+*ImageableArea w18h252/06 mm (1/4") Label: "2.40 30.00 15.20 222.00"
+*ImageableArea w18h4000/06 mm (1/4") Continuous: "2.40 30.00 15.20 3970.00"
+*ImageableArea w26h252/09 mm (3/8") Label: "4.80 30.00 20.80 222.00"
+*ImageableArea w26h4000/09 mm (3/8") Continuous: "4.80 30.00 20.80 3970.00"
+*ImageableArea w35h252/1/3 File: "9.20 30.00 25.20 222.00"
+*ImageableArea w35h144/1/5 File: "9.20 30.00 25.20 114.00"
+*ImageableArea w35h252.1/12 mm (1/2") Label: "9.20 30.00 25.20 222.00"
+*ImageableArea w35h4000/12 mm (1/2") Continuous: "9.20 30.00 25.20 3970.00"
+*ImageableArea w55h252/19 mm (3/4") Label: "8.00 30.00 46.40 222.00"
+*ImageableArea w55h4000/19 mm (3/4") Continuous: "8.00 30.00 46.40 3970.00"
+*ImageableArea w68h252/24 mm (1") Label: "14.80 30.00 53.20 222.00"
+*ImageableArea w68h4000/24 mm (1") Continuous: "14.80 30.00 53.20 3970.00"
+*ImageableArea w68h252.2/Address Label: "14.80 30.00 53.20 222.00"
+*ImageableArea w35h252.2/Large Pendaflex: "9.20 30.00 25.20 222.00"
+*ImageableArea w35h144.1/Small Pendaflex: "9.20 30.00 25.20 114.00"
+
+*DefaultPaperDimension: w68h252.2
+*PaperDimension w18h252/06 mm (1/4") Label: "17.60 252.00"
+*PaperDimension w18h4000/06 mm (1/4") Continuous: "17.60 4000.00"
+*PaperDimension w26h252/09 mm (3/8") Label: "25.60 252.00"
+*PaperDimension w26h4000/09 mm (3/8") Continuous: "25.60 4000.00"
+*PaperDimension w35h252/1/3 File: "34.40 252.00"
+*PaperDimension w35h144/1/5 File: "34.40 144.00"
+*PaperDimension w35h252.1/12 mm (1/2") Label: "34.40 252.00"
+*PaperDimension w35h4000/12 mm (1/2") Continuous: "34.40 4000.00"
+*PaperDimension w55h252/19 mm (3/4") Label: "54.40 252.00"
+*PaperDimension w55h4000/19 mm (3/4") Continuous: "54.40 4000.00"
+*PaperDimension w68h252/24 mm (1") Label: "68.00 252.00"
+*PaperDimension w68h4000/24 mm (1") Continuous: "68.00 4000.00"
+*PaperDimension w68h252.2/Address Label: "68.00 252.00"
+*PaperDimension w35h252.2/Large Pendaflex: "34.40 252.00"
+*PaperDimension w35h144.1/Small Pendaflex: "34.40 144.00"
+
+*MaxMediaWidth:  "38.4"
+*MaxMediaHeight: "4000"
+*HWMargins:      0 0 0 0
+*CustomPageSize True: "pop pop pop <</PageSize[5 -2 roll]/ImagingBBox null>>setpagedevice"
+*ParamCustomPageSize Width:        1 points 4 38.4
+*ParamCustomPageSize Height:       2 points 16 4000
+*ParamCustomPageSize WidthOffset:  3 points 0 0
+*ParamCustomPageSize HeightOffset: 4 points 0 0
+*ParamCustomPageSize Orientation:  5 int 0 3
+
+
+*OpenUI *Resolution/Output Resolution: PickOne
+*OrderDependency: 20 AnySetup *Resolution
+*DefaultResolution: 180dpi
+*Resolution 180dpi/180 DPI: "<</HWResolution[180 180]>>setpagedevice"
+*CloseUI: *Resolution
+
+*OpenUI *DymoHalftoning/Halftoning: PickOne
+*OrderDependency: 20 AnySetup *DymoHalftoning
+*DefaultDymoHalftoning: Default
+*DymoHalftoning Default/Default: "<</cupsColorOrder 0/cupsColorSpace 3/cupsBitsPerColor 1/cupsBitsPerPixel 1>>setpagedevice"
+*DymoHalftoning ErrorDiffusion/Error Diffusion: "<</cupsColorOrder 0/cupsColorSpace 1/cupsBitsPerColor 8>>setpagedevice"
+*DymoHalftoning NLL/Nonlinear Dithering: "<</cupsColorOrder 0/cupsColorSpace 1/cupsBitsPerColor 8>>setpagedevice"
+*CloseUI: *DymoHalftoning
+
+*OpenUI *DymoCutOptions/Cut Options: PickOne
+*OrderDependency: 20 AnySetup *DymoCutOptions
+*DefaultDymoCutOptions: Cut
+*DymoCutOptions Cut/Cut: ""
+*DymoCutOptions ChainMarks/Chain Marks: ""
+*CloseUI: *DymoCutOptions
+
+*OpenUI *DymoLabelAlignment/Label Alignment: PickOne
+*OrderDependency: 20 AnySetup *DymoLabelAlignment
+*DefaultDymoLabelAlignment: Center
+*DymoLabelAlignment Center/Centered: ""
+*DymoLabelAlignment Left/Left Aligned: ""
+*DymoLabelAlignment Right/Right Aligned: ""
+*CloseUI: *DymoLabelAlignment
+
+*OpenUI *DymoContinuousPaper/Continuous Paper: PickOne
+*OrderDependency: 20 AnySetup *DymoContinuousPaper
+*DefaultDymoContinuousPaper: 0
+*DymoContinuousPaper 0/Disabled: ""
+*DymoContinuousPaper 1/Enabled: ""
+*CloseUI: *DymoContinuousPaper
+
+*OpenUI *DymoTapeColor/Tape Cassette Color: PickOne
+*OrderDependency: 20 AnySetup *DymoTapeColor
+*DefaultDymoTapeColor: 0
+*DymoTapeColor 0/Black on White or Clear: ""
+*DymoTapeColor 1/Black on Blue: ""
+*DymoTapeColor 2/Black on Red: ""
+*DymoTapeColor 3/Black on Silver: ""
+*DymoTapeColor 4/Black on Yellow: ""
+*DymoTapeColor 5/Black on Gold: ""
+*DymoTapeColor 6/Black on Green: ""
+*DymoTapeColor 7/Black on Fluorescent Green: ""
+*DymoTapeColor 8/Black on Fluorescent Red: ""
+*DymoTapeColor 9/White on Clear: ""
+*DymoTapeColor 10/White on Black: ""
+*DymoTapeColor 11/Blue on White or Clear: ""
+*DymoTapeColor 12/Red on White or Clear: ""
+*CloseUI: *DymoTapeColor
+
+
+*DefaultFont: Courier
+*Font AvantGarde-Book: Standard "(001.006S)" Standard ROM
+*Font AvantGarde-BookOblique: Standard "(001.006S)" Standard ROM
+*Font AvantGarde-Demi: Standard "(001.007S)" Standard ROM
+*Font AvantGarde-DemiOblique: Standard "(001.007S)" Standard ROM
+*Font Bookman-Demi: Standard "(001.004S)" Standard ROM
+*Font Bookman-DemiItalic: Standard "(001.004S)" Standard ROM
+*Font Bookman-Light: Standard "(001.004S)" Standard ROM
+*Font Bookman-LightItalic: Standard "(001.004S)" Standard ROM
+*Font Courier: Standard "(002.004S)" Standard ROM
+*Font Courier-Bold: Standard "(002.004S)" Standard ROM
+*Font Courier-BoldOblique: Standard "(002.004S)" Standard ROM
+*Font Courier-Oblique: Standard "(002.004S)" Standard ROM
+*Font Helvetica: Standard "(001.006S)" Standard ROM
+*Font Helvetica-Bold: Standard "(001.007S)" Standard ROM
+*Font Helvetica-BoldOblique: Standard "(001.007S)" Standard ROM
+*Font Helvetica-Narrow: Standard "(001.006S)" Standard ROM
+*Font Helvetica-Narrow-Bold: Standard "(001.007S)" Standard ROM
+*Font Helvetica-Narrow-BoldOblique: Standard "(001.007S)" Standard ROM
+*Font Helvetica-Narrow-Oblique: Standard "(001.006S)" Standard ROM
+*Font Helvetica-Oblique: Standard "(001.006S)" Standard ROM
+*Font NewCenturySchlbk-Bold: Standard "(001.009S)" Standard ROM
+*Font NewCenturySchlbk-BoldItalic: Standard "(001.007S)" Standard ROM
+*Font NewCenturySchlbk-Italic: Standard "(001.006S)" Standard ROM
+*Font NewCenturySchlbk-Roman: Standard "(001.007S)" Standard ROM
+*Font Palatino-Bold: Standard "(001.005S)" Standard ROM
+*Font Palatino-BoldItalic: Standard "(001.005S)" Standard ROM
+*Font Palatino-Italic: Standard "(001.005S)" Standard ROM
+*Font Palatino-Roman: Standard "(001.005S)" Standard ROM
+*Font Symbol: Special "(001.007S)" Special ROM
+*Font Times-Bold: Standard "(001.007S)" Standard ROM
+*Font Times-BoldItalic: Standard "(001.009S)" Standard ROM
+*Font Times-Italic: Standard "(001.007S)" Standard ROM
+*Font Times-Roman: Standard "(001.007S)" Standard ROM
+*Font ZapfChancery-MediumItalic: Standard "(001.007S)" Standard ROM
+*Font ZapfDingbats: Special "(001.004S)" Standard ROM
+
+*%
+*%  End of "$Id: lm400.ppd 7050 2009-02-07 00:06:12Z vbuzuev $"
+*%
