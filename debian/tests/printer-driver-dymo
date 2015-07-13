@@ -1,0 +1,7 @@
+#!/bin/sh
+
+set -e
+
+. /usr/share/cups/ppd-updaters/printer-driver-dymo.ppd-updater
+
+/usr/share/cups/test-drivers -n adt-test-dymo-0 -r $DRIVER_REGEXP

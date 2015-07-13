@@ -1,0 +1,25 @@
+Description: Port tests to newer cups headers: ppd_file_t is only defined in ppd.h
+Author: Didier Raboud <odyx@debian.org>
+Origin: vendor
+Last-Update: 2014-01-06
+
+--- a/src/lw/tests/TestLabelWriterFilter.h
++++ b/src/lw/tests/TestLabelWriterFilter.h
+@@ -27,6 +27,7 @@
+ #include "../DummyLanguageMonitor.h"
+ 
+ #include <cups/cups.h>
++#include <cups/ppd.h>
+ 
+ class LabelWriterFilterTest: public CPPUNIT_NS::TestFixture
+ {
+--- a/src/lm/tests/TestLabelManagerFilter.h
++++ b/src/lm/tests/TestLabelManagerFilter.h
+@@ -26,6 +26,7 @@
+ #include "../LabelManagerDriver.h"
+ #include "DummyLanguageMonitor.h"
+ #include <cups/cups.h>
++#include <cups/ppd.h>
+ 
+ class LabelManagerFilterTest: public CPPUNIT_NS::TestFixture
+ {

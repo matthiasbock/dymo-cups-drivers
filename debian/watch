@@ -1,0 +1,2 @@
+version=3
+https://dymo.custhelp.com/app/answers/detail/a_id/101 http://download.dymo.com/Software/Linux/dymo-cups-drivers-(\d[\d.]*)\.(?:zip|tgz|tbz2|txz|tar\.(?:gz|bz2|xz))

@@ -1,0 +1,3 @@
+inheritate_CXXFLAGS.patch
+port_tests_to_newer_cups_headers.patch
+dont_fail_on_uninstalled_filter_ppdtest.patch

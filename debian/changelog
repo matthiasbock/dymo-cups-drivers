@@ -1,0 +1,38 @@
+dymo-cups-drivers (1.4.0-5custom) UNRELEASED; urgency=medium
+
+  * Added support for LabelManager Wireless PnP
+
+ -- Michal <michal@grawp-vbox-02>  Mon, 13 Jul 2015 16:41:20 +0200
+
+dymo-cups-drivers (1.4.0-5) unstable; urgency=medium
+
+  * Add recommends to pull usb-modeswitch as some Dymo LabelPrinters need it
+    to work properly (Closes: #761086)
+
+ -- Didier Raboud <odyx@debian.org>  Tue, 16 Sep 2014 18:09:56 +0200
+
+dymo-cups-drivers (1.4.0-4) unstable; urgency=medium
+
+  * Add autopktest suite
+  * Allow parallel building
+
+ -- Didier Raboud <odyx@debian.org>  Fri, 01 Aug 2014 16:17:31 +0200
+
+dymo-cups-drivers (1.4.0-3) unstable; urgency=medium
+
+  * Move the repository from collab-maint to printing; update the VCS-*
+    fields accordingly
+
+ -- Didier Raboud <odyx@debian.org>  Wed, 05 Mar 2014 16:35:22 +0100
+
+dymo-cups-drivers (1.4.0-2) unstable; urgency=low
+
+  * Add patch to inheritate CXXFLAGS from the environment
+
+ -- Didier Raboud <odyx@debian.org>  Thu, 09 Jan 2014 22:49:38 +0100
+
+dymo-cups-drivers (1.4.0-1) unstable; urgency=low
+
+  * Initial release. (Closes: #640246)
+
+ -- Didier Raboud <odyx@debian.org>  Mon, 06 Jan 2014 15:17:11 +0100

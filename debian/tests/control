@@ -1,0 +1,3 @@
+Tests: printer-driver-dymo
+Restrictions: needs-root
+Depends: printer-driver-dymo, cups, cups-client (>= 1.7.3-5~)
