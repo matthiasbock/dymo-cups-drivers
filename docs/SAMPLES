@@ -1,0 +1,66 @@
+This file contains sample commands could be used to print different file types. 
+It also includes example how to set printing options supported by the drivers.
+
+Note, all commands use default printer as a destination printer. 
+To use other then the default printer, add "-P <printername>" option to the commands.
+
+
+Sample commands for LabelWriter:
+
+1. printing PostScript file
+lpr -o landscape -o PageSize=w167h288 test.ps
+
+2. printing image file
+lpr -o ppi=300 -o PageSize=w167h288 -o PrintQuality=Graphics TestImage.png
+
+3. printing text file
+lpr -o PageSize=w167h288 -o PrintQuality=Text test.txt
+
+4. printing on "continuous" paper
+lpr -o PageSize=w154h7680 -o PrintQuality=Text test.txt
+
+5. printing on specific roll on Twin Turbo
+lpr -o PageSize=w167h288 -o InputSlot=Right  test.txt
+lpr -o PageSize=w167h288 -o InputSlot=Left  test.txt
+lpr -o PageSize=w167h288 -o InputSlot=Auto  test.txt
+
+6. using different quality
+lpr -o ppi=300 -o PageSize=w167h288 -o PrintQuality=Graphics TestImage.png
+lpr -o ppi=300 -o PageSize=w167h288 -o PrintQuality=Text TestImage.png
+
+7. using different darkness
+lpr -o ppi=300 -o PageSize=w167h288 -o PrintDensity=Light TestImage.png
+lpr -o ppi=300 -o PageSize=w167h288 -o PrintDensity=Medium TestImage.png
+lpr -o ppi=300 -o PageSize=w167h288 -o PrintDensity=Normal TestImage.png
+lpr -o ppi=300 -o PageSize=w167h288 -o PrintDensity=Dark TestImage.png
+
+Sample commands for LabelMANAGER:
+
+1. printing PostScript file
+lpr -o landscape -o PageSize=w68h252 test.ps
+
+2. printing text file
+lpr -o landscape -o PageSize=w68h252 test.txt
+
+3. printing aligned labels
+lpr -o landscape -o PageSize=w68h252 -o LabelAlignment=Left test.txt
+lpr -o landscape -o PageSize=w68h252 -o LabelAlignment=Right test.txt
+lpr -o landscape -o PageSize=w68h252 -o LabelAlignment=Center test.txt
+
+4. printing on "auto" paper - does not print empty lines at the end of the label
+lpr -o landscape -o Pagesize=w68h4000  longtest.txt
+lpr -o landscape -o Pagesize=w68h252  longtest.txt
+
+5. using different cutting options
+lpr -o landscape -o Pagesize=w68h252 -o CutOptions=ChainMarks  longtest.txt
+
+6. using different tape color
+lpr -o landscape -o PageSize=w68h252 -o TapeColor=0 test.txt
+lpr -o landscape -o PageSize=w68h252 -o TapeColor=1 test.txt
+lpr -o landscape -o PageSize=w68h252 -o TapeColor=12 test.txt
+
+7. printing in continuous mode - leader/trailer is not used
+lpr -o landscape -o Pagesize=w68h252 -o ContinuousPaper=0 longtest.txt
+lpr -o landscape -o Pagesize=w68h252 -o ContinuousPaper=1 longtest.txt
+lpr -o landscape -o Pagesize=w68h252 -o ContinuousPaper=1 -o CutOptions=ChainMarks longtest.txt
+

@@ -1,0 +1,10 @@
+some command examples:
+
+- print very long text on a tape:
+lpr -o landscape -o PageSize=24_mm__1___Label__Auto_ docs/test.txt
+
+- set printing options specific to the LabelWriter driver
+lpr -o PageSize=30252_Address -o PrintQuality=Graphics -o PrintDensity=Light docs/test.txt
+
+- set printing options specific to the LabelManager driver
+lpr -o PageSize=Address_Label -o CutOptions=ChainMarks -o LabelAlignment=Right -o TapeColor=1
