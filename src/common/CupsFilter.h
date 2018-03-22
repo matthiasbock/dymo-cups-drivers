@@ -133,7 +133,7 @@ CCupsFilter<D, DI, LM>::Run(int argc, char* argv[])
     bool UseCustomHalftoning    = PageHeader.cupsBitsPerPixel > 1;
     bool IsProcessLineSupported = true;
 
-    std::auto_ptr<CHalftoneFilter> H;
+    std::unique_ptr<CHalftoneFilter> H;
     if (UseCustomHalftoning)
     {
       if (HalftoningMethod_ == "NLL")
