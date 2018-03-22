@@ -155,13 +155,13 @@ CHalftoneFilter::ExtractRGB(const buffer_t& InputLine, int PixelNo)
     case itXRGB:
       return 
         (int(InputLine[4*PixelNo + 1]) << 16)
-        || (int(InputLine[4*PixelNo + 2]) << 8)
-        || (InputLine[4*PixelNo + 3] );
+        | (int(InputLine[4*PixelNo + 2]) << 8)
+        | (InputLine[4*PixelNo + 3] );
     case itRGB:        
       return 
         (int(InputLine[3*PixelNo + 0]) << 16)
-        || (int(InputLine[3*PixelNo + 1]) << 8)
-        || (InputLine[3*PixelNo + 2] );
+        | (int(InputLine[3*PixelNo + 1]) << 8)
+        | (InputLine[3*PixelNo + 2] );
     default:
       assert(0);        
   }    
