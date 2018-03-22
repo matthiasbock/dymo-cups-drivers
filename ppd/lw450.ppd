@@ -1,0 +1,628 @@
+*PPD-Adobe: "4.3"
+
+*% $Id: lw450.ppd 16401 2011-10-31 18:51:16Z pineichen $
+
+*% DYMO LabelWriter Drivers
+*% Copyright (C) 2009 Sanford L.P.
+
+*% This program is free software; you can redistribute it and/or
+*% modify it under the terms of the GNU General Public License
+*% as published by the Free Software Foundation; either version 2
+*% of the License, or (at your option) any later version.
+
+*% This program is distributed in the hope that it will be useful,
+*% but WITHOUT ANY WARRANTY; without even the implied warranty of
+*% MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+*% GNU General Public License for more details.
+
+*% You should have received a copy of the GNU General Public License
+*% along with this program; if not, write to the Free Software
+*% Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.
+
+*FormatVersion: "4.3"
+*FileVersion:   "3.0"
+*LanguageVersion: English 
+*LanguageEncoding: ISOLatin1
+*PCFileName:    "LW450.PPD"
+*Manufacturer:  "DYMO"
+*Product:   "(DYMO LabelWriter 450)"
+*cupsVersion:   1.2
+*cupsManualCopies: False
+*cupsFilter:    "application/vnd.cups-raster 0 raster2dymolw"
+*cupsModelNumber: 0
+*PSVersion: "(3010.000) 550"
+*LanguageLevel: "3"
+*ColorDevice:   False
+*DefaultColorSpace: Gray
+*FileSystem:    False
+*Throughput:    "8"
+*LandscapeOrientation: Minus90
+*TTRasterizer:  Type42
+
+*ModelName: "DYMO LabelWriter 450"
+*NickName: "DYMO LabelWriter 450"
+*ShortNickName: "DYMO LabelWriter 450"
+*APPrinterIconPath: "/Library/Printers/DYMO/CUPS/Resources/LW450.icns"
+
+*cupsIPPReason com.dymo.out-of-paper-error/Out of labels. : ""
+*cupsIPPReason com.dymo.read-error/Cannot read data from printer. : ""
+*cupsIPPReason com.dymo.ready/Printer is ready. : ""
+*cupsIPPReason com.dymo.general-error/General print error. : ""
+*cupsIPPReason com.dymo.head-overheat-error/Print head is overheated. : ""
+*cupsIPPReason com.dymo.slot-status-error/Label path is blocked. : ""
+*cupsIPPReason com.dymo.busy-error/The printer is currently in use. : ""
+*cupsIPPReason com.dymo.paper-size-error/Label being printed does not match label width currently in printer. : ""
+*cupsIPPReason com.dymo.paper-size-undefine-error/Insert a label cassette in the printer. : ""
+
+*de.cupsIPPReason com.dymo.out-of-paper-error/Keine Etiketten mehr. : ""
+*de.cupsIPPReason com.dymo.read-error/Kann keine Daten vom Drucker lesen. : ""
+*de.cupsIPPReason com.dymo.ready/Drucker ist bereit. : ""
+*de.cupsIPPReason com.dymo.general-error/Allgemeiner Fehler beim Drucken. : ""
+*de.cupsIPPReason com.dymo.head-overheat-error/Druckkopf ist zu heiß. : ""
+*de.cupsIPPReason com.dymo.slot-status-error/Etikettenzuführung ist blockiert. : ""
+*de.cupsIPPReason com.dymo.busy-error/Der Drucker wird gegenwärtig verwendet. : ""
+*de.cupsIPPReason com.dymo.paper-size-error/Zu druckendes Etikett passt nicht zur Breite der Etiketten im Drucker. : ""
+*de.cupsIPPReason com.dymo.paper-size-undefine-error/Legen Sie eine Etikettenkassette in den Drucker ein. : ""
+
+*es.cupsIPPReason com.dymo.out-of-paper-error/No tiene etiquetas. : ""
+*es.cupsIPPReason com.dymo.read-error/No se pueden leer los datos de la impresora. : ""
+*es.cupsIPPReason com.dymo.ready/La impresora está lista. : ""
+*es.cupsIPPReason com.dymo.general-error/Erreur d'impression générale. : ""
+*es.cupsIPPReason com.dymo.head-overheat-error/El cabezal de impresión está sobrecalentado. : ""
+*es.cupsIPPReason com.dymo.slot-status-error/La trayectoria de la etiqueta está bloqueada. : ""
+*es.cupsIPPReason com.dymo.busy-error/La impresora se encuentra actualmente en uso. : ""
+*es.cupsIPPReason com.dymo.paper-size-error/La etiqueta que se imprime no coincide con el ancho actual de la impresora. : ""
+*es.cupsIPPReason com.dymo.paper-size-undefine-error/Inserte un cartucho de etiquetas en la impresora. : ""
+
+*es_CO.cupsIPPReason com.dymo.out-of-paper-error/No tiene etiquetas. : ""
+*es_CO.cupsIPPReason com.dymo.read-error/No se pueden leer los datos de la impresora. : ""
+*es_CO.cupsIPPReason com.dymo.ready/La impresora está lista. : ""
+*es_CO.cupsIPPReason com.dymo.general-error/Erreur d'impression générale. : ""
+*es_CO.cupsIPPReason com.dymo.head-overheat-error/El cabezal de impresión está sobrecalentado. : ""
+*es_CO.cupsIPPReason com.dymo.slot-status-error/La trayectoria de la etiqueta está bloqueada. : ""
+*es_CO.cupsIPPReason com.dymo.busy-error/La impresora se encuentra actualmente en uso. : ""
+*es_CO.cupsIPPReason com.dymo.paper-size-error/La etiqueta que se imprime no coincide con el ancho actual de la impresora. : ""
+*es_CO.cupsIPPReason com.dymo.paper-size-undefine-error/Inserte un cartucho de etiquetas en la impresora. : ""
+
+*fr.cupsIPPReason com.dymo.out-of-paper-error/Quantité d’étiquettes insuffisante. : ""
+*fr.cupsIPPReason com.dymo.read-error/Impossible de lire les données depuis l'imprimante. : ""
+*fr.cupsIPPReason com.dymo.ready/Imprimante prête. : ""
+*fr.cupsIPPReason com.dymo.general-error/Erreur d'impression générale. : ""
+*fr.cupsIPPReason com.dymo.head-overheat-error/Tête d'impression surchauffée. : ""
+*fr.cupsIPPReason com.dymo.slot-status-error/Chemin des étiquettes bloqué. : ""
+*fr.cupsIPPReason com.dymo.busy-error/Imprimante en cours d'utilisation. : ""
+*fr.cupsIPPReason com.dymo.paper-size-error/Étiquette en cours d'impression pas de la même largeur que dans l'imprimante. : ""
+*fr.cupsIPPReason com.dymo.paper-size-undefine-error/Insérer une cassette d'étiquettes dans l'imprimante. : ""
+
+*fr_CA.cupsIPPReason com.dymo.out-of-paper-error/Quantité d’étiquettes insuffisante. : ""
+*fr_CA.cupsIPPReason com.dymo.read-error/Impossible de lire les données depuis l'imprimante. : ""
+*fr_CA.cupsIPPReason com.dymo.ready/Imprimante prête. : ""
+*fr_CA.cupsIPPReason com.dymo.general-error/Erreur d'impression générale. : ""
+*fr_CA.cupsIPPReason com.dymo.head-overheat-error/Tête d'impression surchauffée. : ""
+*fr_CA.cupsIPPReason com.dymo.slot-status-error/Chemin des étiquettes bloqué. : ""
+*fr_CA.cupsIPPReason com.dymo.busy-error/Imprimante en cours d'utilisation. : ""
+*fr_CA.cupsIPPReason com.dymo.paper-size-error/Étiquette en cours d'impression pas de la même largeur que dans l'imprimante. : ""
+*fr_CA.cupsIPPReason com.dymo.paper-size-undefine-error/Insérer une cassette d'étiquettes dans l'imprimante. : ""
+
+*it.cupsIPPReason com.dymo.out-of-paper-error/Etichette esaurite. : ""
+*it.cupsIPPReason com.dymo.read-error/Impossibile leggere i dati dalla stampante. : ""
+*it.cupsIPPReason com.dymo.ready/Stampante pronta. : ""
+*it.cupsIPPReason com.dymo.general-error/Errore generico di stampa. : ""
+*it.cupsIPPReason com.dymo.head-overheat-error/Testina di stampa surriscaldata. : ""
+*it.cupsIPPReason com.dymo.slot-status-error/Percorso etichetta bloccato. : ""
+*it.cupsIPPReason com.dymo.busy-error/Stampante attualmente in uso. : ""
+*it.cupsIPPReason com.dymo.paper-size-error/L'etichetta in stampa è diversa dalla larghezza impostata nella stampante. : ""
+*it.cupsIPPReason com.dymo.paper-size-undefine-error/Inserire una cartuccia etichette nella stampante. : ""
+
+*nl.cupsIPPReason com.dymo.out-of-paper-error/Labels zijn op. : ""
+*nl.cupsIPPReason com.dymo.read-error/Kan gegevens van de printer niet lezen. : ""
+*nl.cupsIPPReason com.dymo.ready/Printer is gereed. : ""
+*nl.cupsIPPReason com.dymo.general-error/Algemene afdrukfout. : ""
+*nl.cupsIPPReason com.dymo.head-overheat-error/Printkop is oververhit. : ""
+*nl.cupsIPPReason com.dymo.slot-status-error/Labelspoor is geblokkeerd. : ""
+*nl.cupsIPPReason com.dymo.busy-error/De printer is momenteel in gebruik. : ""
+*nl.cupsIPPReason com.dymo.paper-size-error/De af te drukken label komt niet overeen met de labelbreedte in de printer. : ""
+*nl.cupsIPPReason com.dymo.paper-size-undefine-error/Plaats een labelcassette in de printer. : ""
+
+*pt.cupsIPPReason com.dymo.out-of-paper-error/Sem etiquetas. : ""
+*pt.cupsIPPReason com.dymo.read-error/Não é possível ler dados da impressora. : ""
+*pt.cupsIPPReason com.dymo.ready/A impressora está pronta. : ""
+*pt.cupsIPPReason com.dymo.general-error/Erro geral de impressão. : ""
+*pt.cupsIPPReason com.dymo.head-overheat-error/A cabeça de impressão está superaquecida. : ""
+*pt.cupsIPPReason com.dymo.slot-status-error/O caminho da etiqueta está bloqueado. : ""
+*pt.cupsIPPReason com.dymo.busy-error/A impressora está em uso no momento. : ""
+*pt.cupsIPPReason com.dymo.paper-size-error/A etiqueta sendo impressa não coincide com a largura da etiqueta na impressora. : ""
+*pt.cupsIPPReason com.dymo.paper-size-undefine-error/Inserir um cassete de etiquetas na impressora. : ""
+
+*pt_BR.cupsIPPReason com.dymo.out-of-paper-error/Sem etiquetas. : ""
+*pt_BR.cupsIPPReason com.dymo.read-error/Não é possível ler dados da impressora. : ""
+*pt_BR.cupsIPPReason com.dymo.ready/A impressora está pronta. : ""
+*pt_BR.cupsIPPReason com.dymo.general-error/Erro geral de impressão. : ""
+*pt_BR.cupsIPPReason com.dymo.head-overheat-error/A cabeça de impressão está superaquecida. : ""
+*pt_BR.cupsIPPReason com.dymo.slot-status-error/O caminho da etiqueta está bloqueado. : ""
+*pt_BR.cupsIPPReason com.dymo.busy-error/A impressora está em uso no momento. : ""
+*pt_BR.cupsIPPReason com.dymo.paper-size-error/A etiqueta sendo impressa não coincide com a largura da etiqueta na impressora. : ""
+*pt_BR.cupsIPPReason com.dymo.paper-size-undefine-error/Inserir um cassete de etiquetas na impressora. : ""
+
+*OpenUI *PageSize/Media Size: PickOne
+*OrderDependency: 10 AnySetup *PageSize
+*DefaultPageSize: w167h288
+*PageSize w154h64/11351 Jewelry Label: "<</PageSize[154 64]/ImagingBBox null/cupsInteger0 0>>setpagedevice"
+*PageSize w72h154/11352 Return Address Int: "<</PageSize[72 154]/ImagingBBox null/cupsInteger0 0>>setpagedevice"
+*PageSize w72h72/11353 Multi-Purpose: "<</PageSize[72 72]/ImagingBBox null/cupsInteger0 0>>setpagedevice"
+*PageSize w162h90/11354 Multi-Purpose: "<</PageSize[162 90]/ImagingBBox null/cupsInteger0 0>>setpagedevice"
+*PageSize w54h144/11355 Multi-Purpose: "<</PageSize[54 144]/ImagingBBox null/cupsInteger0 0>>setpagedevice"
+*PageSize w118h252/11356 White Name badge: "<</PageSize[118 252]/ImagingBBox null/cupsInteger0 0>>setpagedevice"
+*PageSize w167h188/14681 CD/DVD Label: "<</PageSize[167 188]/ImagingBBox null/cupsInteger0 0>>setpagedevice"
+*PageSize w79h252/30252 Address: "<</PageSize[79 252]/ImagingBBox null/cupsInteger0 0>>setpagedevice"
+*PageSize w167h252/30253 Address (2 up): "<</PageSize[167 252]/ImagingBBox null/cupsInteger0 0>>setpagedevice"
+*PageSize w167h288/30256 Shipping: "<</PageSize[167 288]/ImagingBBox null/cupsInteger0 0>>setpagedevice"
+*PageSize w154h198/30258 Diskette: "<</PageSize[154 198]/ImagingBBox null/cupsInteger0 0>>setpagedevice"
+*PageSize w82h248/30277 File Folder (2 up): "<</PageSize[82 248]/ImagingBBox null/cupsInteger0 0>>setpagedevice"
+*PageSize w154h64.1/30299 Jewelry Label (2 up): "<</PageSize[154 64]/ImagingBBox null/cupsInteger0 0>>setpagedevice"
+*PageSize w79h252.1/30320 Address: "<</PageSize[79 252]/ImagingBBox null/cupsInteger0 0>>setpagedevice"
+*PageSize w102h252/30321 Large Address: "<</PageSize[102 252]/ImagingBBox null/cupsInteger0 0>>setpagedevice"
+*PageSize w154h286/30323 Shipping: "<</PageSize[154 286]/ImagingBBox null/cupsInteger0 0>>setpagedevice"
+*PageSize w154h198.1/30324 Diskette: "<</PageSize[154 198]/ImagingBBox null/cupsInteger0 0>>setpagedevice"
+*PageSize w54h424/30325 Video Spine: "<</PageSize[54 424]/ImagingBBox null/cupsInteger0 0>>setpagedevice"
+*PageSize w131h221/30326 Video Top: "<</PageSize[131 221]/ImagingBBox null/cupsInteger0 0>>setpagedevice"
+*PageSize w57h248/30327 File Folder: "<</PageSize[57 248]/ImagingBBox null/cupsInteger0 0>>setpagedevice"
+*PageSize w54h144.1/30330 Return Address: "<</PageSize[54 144]/ImagingBBox null/cupsInteger0 0>>setpagedevice"
+*PageSize w72h72.1/30332 1 in x 1 in: "<</PageSize[72 72]/ImagingBBox null/cupsInteger0 0>>setpagedevice"
+*PageSize w72h72.2/30333 1/2 in x 1 in (2 up): "<</PageSize[72 72]/ImagingBBox null/cupsInteger0 0>>setpagedevice"
+*PageSize w162h90.1/30334 2-1/4 in x 1-1/4 in: "<</PageSize[162 90]/ImagingBBox null/cupsInteger0 0>>setpagedevice"
+*PageSize 30334_2-1_4_in_x_1-1_4_in/30334 2-1/4 in x 1-1/4 in: "<</PageSize[162 90]/ImagingBBox null/cupsInteger0 0>>setpagedevice"
+*PageSize w73h86/30335 1/2 in x 1/2 in (4 up): "<</PageSize[73 86]/ImagingBBox null/cupsInteger0 0>>setpagedevice"
+*PageSize w72h154.1/30336 1 in x 2-1/8 in: "<</PageSize[72 154]/ImagingBBox null/cupsInteger0 0>>setpagedevice"
+*PageSize w118h252.1/30337 Audio Cassette: "<</PageSize[118 252]/ImagingBBox null/cupsInteger0 0>>setpagedevice"
+*PageSize w54h203/30339 8mm Video (2 up): "<</PageSize[54 203]/ImagingBBox null/cupsInteger0 0>>setpagedevice"
+*PageSize w54h180/30345 3/4 in x 2-1/2 in: "<</PageSize[54 180]/ImagingBBox null/cupsInteger0 0>>setpagedevice"
+*PageSize w36h136/30346 1/2 in x 1-7/8 in: "<</PageSize[36 136]/ImagingBBox null/cupsInteger0 0>>setpagedevice"
+*PageSize w72h108/30347 1 in x 1-1/2 in: "<</PageSize[72 108]/ImagingBBox null/cupsInteger0 0>>setpagedevice"
+*PageSize w65h90/30348 9/10 in x 1-1/4 in: "<</PageSize[65 90]/ImagingBBox null/cupsInteger0 0>>setpagedevice"
+*PageSize w167h288.1/30364 Name Badge Label: "<</PageSize[167 288]/ImagingBBox null/cupsInteger0 0>>setpagedevice"
+*PageSize w168h252/30365 Name Badge Card: "<</PageSize[168 252]/ImagingBBox null/cupsInteger0 0>>setpagedevice"
+*PageSize w144h169/30370 Zip Disk: "<</PageSize[144 169]/ImagingBBox null/cupsInteger0 0>>setpagedevice"
+*PageSize w71h144/30373 Price Tag Label: "<</PageSize[71 144]/ImagingBBox null/cupsInteger0 0>>setpagedevice"
+*PageSize w144h252/30374 Appointment Card: "<</PageSize[144 252]/ImagingBBox null/cupsInteger0 0>>setpagedevice"
+*PageSize w80h144/30376 Hanging File Insert: "<</PageSize[80 144]/ImagingBBox null/cupsInteger0 0>>setpagedevice"
+*PageSize w162h504/30383 PC Postage 3-Part: "<</PageSize[162 504]/ImagingBBox null/cupsInteger0 0>>setpagedevice"
+*PageSize 30383_PC_Postage_3-Part/30383 PC Postage 3-Part: "<</PageSize[162 504]/ImagingBBox null/cupsInteger0 0>>setpagedevice"
+*PageSize w167h540/30384 PC Postage 2-Part: "<</PageSize[167 540]/ImagingBBox null/cupsInteger0 0>>setpagedevice"
+*PageSize 30384_PC_Postage_2-Part/30384 PC Postage 2-Part: "<</PageSize[167 540]/ImagingBBox null/cupsInteger0 0>>setpagedevice"
+*PageSize w167h756/30387 PC Postage EPS: "<</PageSize[167 756]/ImagingBBox null/cupsInteger0 0>>setpagedevice"
+*PageSize 30387_PC_Postage_EPS/30387 PC Postage EPS: "<</PageSize[167 756]/ImagingBBox null/cupsInteger0 0>>setpagedevice"
+*PageSize w167h188.1/30854 CD Label: "<</PageSize[167 188]/ImagingBBox null/cupsInteger0 0>>setpagedevice"
+*PageSize w176h292/30856 Badge Card Label: "<</PageSize[176 292]/ImagingBBox null/cupsInteger0 0>>setpagedevice"
+*PageSize w167h288.2/30857 Badge Label: "<</PageSize[167 288]/ImagingBBox null/cupsInteger0 0>>setpagedevice"
+*PageSize w112h126/30886 CD Label: "<</PageSize[112 126]/ImagingBBox null/cupsInteger0 0>>setpagedevice"
+*PageSize w79h252.2/99010 Standard Address: "<</PageSize[79 252]/ImagingBBox null/cupsInteger0 0>>setpagedevice"
+*PageSize w102h252.1/99012 Large Address: "<</PageSize[102 252]/ImagingBBox null/cupsInteger0 0>>setpagedevice"
+*PageSize w154h286.1/99014 Name Badge Label: "<</PageSize[154 286]/ImagingBBox null/cupsInteger0 0>>setpagedevice"
+*PageSize w154h286.2/99014 Shipping: "<</PageSize[154 286]/ImagingBBox null/cupsInteger0 0>>setpagedevice"
+*PageSize w154h198.2/99015 Diskette: "<</PageSize[154 198]/ImagingBBox null/cupsInteger0 0>>setpagedevice"
+*PageSize w63h419/99016 Video Spine: "<</PageSize[63 419]/ImagingBBox null/cupsInteger0 0>>setpagedevice"
+*PageSize w139h221/99016 Video Top: "<</PageSize[139 221]/ImagingBBox null/cupsInteger0 0>>setpagedevice"
+*PageSize w36h144/99017 Suspension File: "<</PageSize[36 144]/ImagingBBox null/cupsInteger0 0>>setpagedevice"
+*PageSize w108h539/99018 Small Lever Arch: "<</PageSize[108 539]/ImagingBBox null/cupsInteger0 0>>setpagedevice"
+*PageSize w167h539/99019 Large Lever Arch: "<</PageSize[167 539]/ImagingBBox null/cupsInteger0 0>>setpagedevice"
+*PageSize w154h7680/Banner: "<</PageSize[154 7680]/ImagingBBox null/cupsMediaType 1/cupsInteger0 0>>setpagedevice"
+*PageSize w154h792/Continuous, Wide: "<</PageSize[154 792]/ImagingBBox null/cupsMediaType 1/cupsInteger0 0>>setpagedevice"
+*CloseUI: *PageSize
+
+*OpenUI *PageRegion: PickOne
+*OrderDependency: 10 AnySetup *PageRegion
+*DefaultPageRegion: w167h288
+*PageRegion w154h64/11351 Jewelry Label: "<</PageSize[154 64]/ImagingBBox null/cupsInteger0 0>>setpagedevice"
+*PageRegion w72h154/11352 Return Address Int: "<</PageSize[72 154]/ImagingBBox null/cupsInteger0 0>>setpagedevice"
+*PageRegion w72h72/11353 Multi-Purpose: "<</PageSize[72 72]/ImagingBBox null/cupsInteger0 0>>setpagedevice"
+*PageRegion w162h90/11354 Multi-Purpose: "<</PageSize[162 90]/ImagingBBox null/cupsInteger0 0>>setpagedevice"
+*PageRegion w54h144/11355 Multi-Purpose: "<</PageSize[54 144]/ImagingBBox null/cupsInteger0 0>>setpagedevice"
+*PageRegion w118h252/11356 White Name badge: "<</PageSize[118 252]/ImagingBBox null/cupsInteger0 0>>setpagedevice"
+*PageRegion w167h188/14681 CD/DVD Label: "<</PageSize[167 188]/ImagingBBox null/cupsInteger0 0>>setpagedevice"
+*PageRegion w79h252/30252 Address: "<</PageSize[79 252]/ImagingBBox null/cupsInteger0 0>>setpagedevice"
+*PageRegion w167h252/30253 Address (2 up): "<</PageSize[167 252]/ImagingBBox null/cupsInteger0 0>>setpagedevice"
+*PageRegion w167h288/30256 Shipping: "<</PageSize[167 288]/ImagingBBox null/cupsInteger0 0>>setpagedevice"
+*PageRegion w154h198/30258 Diskette: "<</PageSize[154 198]/ImagingBBox null/cupsInteger0 0>>setpagedevice"
+*PageRegion w82h248/30277 File Folder (2 up): "<</PageSize[82 248]/ImagingBBox null/cupsInteger0 0>>setpagedevice"
+*PageRegion w154h64.1/30299 Jewelry Label (2 up): "<</PageSize[154 64]/ImagingBBox null/cupsInteger0 0>>setpagedevice"
+*PageRegion w79h252.1/30320 Address: "<</PageSize[79 252]/ImagingBBox null/cupsInteger0 0>>setpagedevice"
+*PageRegion w102h252/30321 Large Address: "<</PageSize[102 252]/ImagingBBox null/cupsInteger0 0>>setpagedevice"
+*PageRegion w154h286/30323 Shipping: "<</PageSize[154 286]/ImagingBBox null/cupsInteger0 0>>setpagedevice"
+*PageRegion w154h198.1/30324 Diskette: "<</PageSize[154 198]/ImagingBBox null/cupsInteger0 0>>setpagedevice"
+*PageRegion w54h424/30325 Video Spine: "<</PageSize[54 424]/ImagingBBox null/cupsInteger0 0>>setpagedevice"
+*PageRegion w131h221/30326 Video Top: "<</PageSize[131 221]/ImagingBBox null/cupsInteger0 0>>setpagedevice"
+*PageRegion w57h248/30327 File Folder: "<</PageSize[57 248]/ImagingBBox null/cupsInteger0 0>>setpagedevice"
+*PageRegion w54h144.1/30330 Return Address: "<</PageSize[54 144]/ImagingBBox null/cupsInteger0 0>>setpagedevice"
+*PageRegion w72h72.1/30332 1 in x 1 in: "<</PageSize[72 72]/ImagingBBox null/cupsInteger0 0>>setpagedevice"
+*PageRegion w72h72.2/30333 1/2 in x 1 in (2 up): "<</PageSize[72 72]/ImagingBBox null/cupsInteger0 0>>setpagedevice"
+*PageRegion w162h90.1/30334 2-1/4 in x 1-1/4 in: "<</PageSize[162 90]/ImagingBBox null/cupsInteger0 0>>setpagedevice"
+*PageRegion 30334_2-1_4_in_x_1-1_4_in/30334 2-1/4 in x 1-1/4 in: "<</PageSize[162 90]/ImagingBBox null/cupsInteger0 0>>setpagedevice"
+*PageRegion w73h86/30335 1/2 in x 1/2 in (4 up): "<</PageSize[73 86]/ImagingBBox null/cupsInteger0 0>>setpagedevice"
+*PageRegion w72h154.1/30336 1 in x 2-1/8 in: "<</PageSize[72 154]/ImagingBBox null/cupsInteger0 0>>setpagedevice"
+*PageRegion w118h252.1/30337 Audio Cassette: "<</PageSize[118 252]/ImagingBBox null/cupsInteger0 0>>setpagedevice"
+*PageRegion w54h203/30339 8mm Video (2 up): "<</PageSize[54 203]/ImagingBBox null/cupsInteger0 0>>setpagedevice"
+*PageRegion w54h180/30345 3/4 in x 2-1/2 in: "<</PageSize[54 180]/ImagingBBox null/cupsInteger0 0>>setpagedevice"
+*PageRegion w36h136/30346 1/2 in x 1-7/8 in: "<</PageSize[36 136]/ImagingBBox null/cupsInteger0 0>>setpagedevice"
+*PageRegion w72h108/30347 1 in x 1-1/2 in: "<</PageSize[72 108]/ImagingBBox null/cupsInteger0 0>>setpagedevice"
+*PageRegion w65h90/30348 9/10 in x 1-1/4 in: "<</PageSize[65 90]/ImagingBBox null/cupsInteger0 0>>setpagedevice"
+*PageRegion w167h288.1/30364 Name Badge Label: "<</PageSize[167 288]/ImagingBBox null/cupsInteger0 0>>setpagedevice"
+*PageRegion w168h252/30365 Name Badge Card: "<</PageSize[168 252]/ImagingBBox null/cupsInteger0 0>>setpagedevice"
+*PageRegion w144h169/30370 Zip Disk: "<</PageSize[144 169]/ImagingBBox null/cupsInteger0 0>>setpagedevice"
+*PageRegion w71h144/30373 Price Tag Label: "<</PageSize[71 144]/ImagingBBox null/cupsInteger0 0>>setpagedevice"
+*PageRegion w144h252/30374 Appointment Card: "<</PageSize[144 252]/ImagingBBox null/cupsInteger0 0>>setpagedevice"
+*PageRegion w80h144/30376 Hanging File Insert: "<</PageSize[80 144]/ImagingBBox null/cupsInteger0 0>>setpagedevice"
+*PageRegion w162h504/30383 PC Postage 3-Part: "<</PageSize[162 504]/ImagingBBox null/cupsInteger0 0>>setpagedevice"
+*PageRegion 30383_PC_Postage_3-Part/30383 PC Postage 3-Part: "<</PageSize[162 504]/ImagingBBox null/cupsInteger0 0>>setpagedevice"
+*PageRegion w167h540/30384 PC Postage 2-Part: "<</PageSize[167 540]/ImagingBBox null/cupsInteger0 0>>setpagedevice"
+*PageRegion 30384_PC_Postage_2-Part/30384 PC Postage 2-Part: "<</PageSize[167 540]/ImagingBBox null/cupsInteger0 0>>setpagedevice"
+*PageRegion w167h756/30387 PC Postage EPS: "<</PageSize[167 756]/ImagingBBox null/cupsInteger0 0>>setpagedevice"
+*PageRegion 30387_PC_Postage_EPS/30387 PC Postage EPS: "<</PageSize[167 756]/ImagingBBox null/cupsInteger0 0>>setpagedevice"
+*PageRegion w167h188.1/30854 CD Label: "<</PageSize[167 188]/ImagingBBox null/cupsInteger0 0>>setpagedevice"
+*PageRegion w176h292/30856 Badge Card Label: "<</PageSize[176 292]/ImagingBBox null/cupsInteger0 0>>setpagedevice"
+*PageRegion w167h288.2/30857 Badge Label: "<</PageSize[167 288]/ImagingBBox null/cupsInteger0 0>>setpagedevice"
+*PageRegion w112h126/30886 CD Label: "<</PageSize[112 126]/ImagingBBox null/cupsInteger0 0>>setpagedevice"
+*PageRegion w79h252.2/99010 Standard Address: "<</PageSize[79 252]/ImagingBBox null/cupsInteger0 0>>setpagedevice"
+*PageRegion w102h252.1/99012 Large Address: "<</PageSize[102 252]/ImagingBBox null/cupsInteger0 0>>setpagedevice"
+*PageRegion w154h286.1/99014 Name Badge Label: "<</PageSize[154 286]/ImagingBBox null/cupsInteger0 0>>setpagedevice"
+*PageRegion w154h286.2/99014 Shipping: "<</PageSize[154 286]/ImagingBBox null/cupsInteger0 0>>setpagedevice"
+*PageRegion w154h198.2/99015 Diskette: "<</PageSize[154 198]/ImagingBBox null/cupsInteger0 0>>setpagedevice"
+*PageRegion w63h419/99016 Video Spine: "<</PageSize[63 419]/ImagingBBox null/cupsInteger0 0>>setpagedevice"
+*PageRegion w139h221/99016 Video Top: "<</PageSize[139 221]/ImagingBBox null/cupsInteger0 0>>setpagedevice"
+*PageRegion w36h144/99017 Suspension File: "<</PageSize[36 144]/ImagingBBox null/cupsInteger0 0>>setpagedevice"
+*PageRegion w108h539/99018 Small Lever Arch: "<</PageSize[108 539]/ImagingBBox null/cupsInteger0 0>>setpagedevice"
+*PageRegion w167h539/99019 Large Lever Arch: "<</PageSize[167 539]/ImagingBBox null/cupsInteger0 0>>setpagedevice"
+*PageRegion w154h7680/Banner: "<</PageSize[154 7680]/ImagingBBox null/cupsMediaType 1/cupsInteger0 0>>setpagedevice"
+*PageRegion w154h792/Continuous, Wide: "<</PageSize[154 792]/ImagingBBox null/cupsMediaType 1/cupsInteger0 0>>setpagedevice"
+*CloseUI: *PageRegion
+
+*DefaultImageableArea: w167h288
+*ImageableArea w154h64/11351 Jewelry Label: "0.00 4.32 150.72 58.80"
+*ImageableArea w72h154/11352 Return Address Int: "4.08 4.32 69.12 146.64"
+*ImageableArea w72h72/11353 Multi-Purpose: "4.08 4.32 69.12 65.28"
+*ImageableArea w162h90/11354 Multi-Purpose: "2.88 4.32 159.12 85.68"
+*ImageableArea w54h144/11355 Multi-Purpose: "4.08 4.32 51.12 127.68"
+*ImageableArea w118h252/11356 White Name badge: "4.08 4.32 114.24 235.44"
+*ImageableArea w167h188/14681 CD/DVD Label: "4.08 17.04 161.28 170.40"
+*ImageableArea w79h252/30252 Address: "4.32 4.32 76.08 235.44"
+*ImageableArea w167h252/30253 Address (2 up): "4.08 4.32 163.44 235.68"
+*ImageableArea w167h288/30256 Shipping: "4.08 4.32 163.68 271.20"
+*ImageableArea w154h198/30258 Diskette: "4.08 4.32 150.24 182.16"
+*ImageableArea w82h248/30277 File Folder (2 up): "4.32 4.32 78.24 233.04"
+*ImageableArea w154h64.1/30299 Jewelry Label (2 up): "0.00 4.32 150.72 58.80"
+*ImageableArea w79h252.1/30320 Address: "4.32 4.32 76.08 235.44"
+*ImageableArea w102h252/30321 Large Address: "4.32 4.32 98.40 234.96"
+*ImageableArea w154h286/30323 Shipping: "4.32 4.32 150.24 270.48"
+*ImageableArea w154h198.1/30324 Diskette: "2.88 4.32 150.24 182.16"
+*ImageableArea w54h424/30325 Video Spine: "2.88 4.32 51.12 407.28"
+*ImageableArea w131h221/30326 Video Top: "4.08 4.32 127.68 204.72"
+*ImageableArea w57h248/30327 File Folder: "0.00 4.32 53.52 231.60"
+*ImageableArea w54h144.1/30330 Return Address: "4.08 4.32 51.12 127.68"
+*ImageableArea w72h72.1/30332 1 in x 1 in: "4.08 4.32 69.12 64.80"
+*ImageableArea w72h72.2/30333 1/2 in x 1 in (2 up): "4.08 4.32 69.12 65.28"
+*ImageableArea w162h90.1/30334 2-1/4 in x 1-1/4 in: "2.88 4.32 159.12 85.68"
+*ImageableArea 30334_2-1_4_in_x_1-1_4_in/30334 2-1/4 in x 1-1/4 in: "2.88 4.32 159.12 85.68"
+*ImageableArea w73h86/30335 1/2 in x 1/2 in (4 up): "0.00 4.32 70.08 81.12"
+*ImageableArea w72h154.1/30336 1 in x 2-1/8 in: "4.08 4.32 69.12 146.64"
+*ImageableArea w118h252.1/30337 Audio Cassette: "4.08 4.32 114.24 235.44"
+*ImageableArea w54h203/30339 8mm Video (2 up): "4.08 4.32 51.12 186.72"
+*ImageableArea w54h180/30345 3/4 in x 2-1/2 in: "4.08 4.32 51.12 163.68"
+*ImageableArea w36h136/30346 1/2 in x 1-7/8 in: "4.08 4.32 33.12 118.80"
+*ImageableArea w72h108/30347 1 in x 1-1/2 in: "4.08 4.32 69.12 91.68"
+*ImageableArea w65h90/30348 9/10 in x 1-1/4 in: "5.04 4.32 61.92 73.68"
+*ImageableArea w167h288.1/30364 Name Badge Label: "4.08 4.32 163.68 271.20"
+*ImageableArea w168h252/30365 Name Badge Card: "0.00 4.32 161.28 225.12"
+*ImageableArea w144h169/30370 Zip Disk: "4.32 4.32 141.12 152.88"
+*ImageableArea w71h144/30373 Price Tag Label: "0.00 85.44 67.44 139.68"
+*ImageableArea w144h252/30374 Appointment Card: "8.64 4.32 141.12 225.12"
+*ImageableArea w80h144/30376 Hanging File Insert: "8.64 4.32 76.32 121.44"
+*ImageableArea w162h504/30383 PC Postage 3-Part: "4.08 4.32 159.12 488.16"
+*ImageableArea 30383_PC_Postage_3-Part/30383 PC Postage 3-Part: "4.08 4.32 159.12 488.16"
+*ImageableArea w167h540/30384 PC Postage 2-Part: "4.08 4.32 163.68 524.16"
+*ImageableArea 30384_PC_Postage_2-Part/30384 PC Postage 2-Part: "4.08 4.32 163.68 524.16"
+*ImageableArea w167h756/30387 PC Postage EPS: "4.08 4.32 163.68 740.16"
+*ImageableArea 30387_PC_Postage_EPS/30387 PC Postage EPS: "4.08 4.32 163.68 740.16"
+*ImageableArea w167h188.1/30854 CD Label: "4.08 17.04 161.28 170.40"
+*ImageableArea w176h292/30856 Badge Card Label: "0.00 4.32 161.28 264.72"
+*ImageableArea w167h288.2/30857 Badge Label: "4.08 4.32 163.68 271.20"
+*ImageableArea w112h126/30886 CD Label: "4.32 18.00 102.24 110.16"
+*ImageableArea w79h252.2/99010 Standard Address: "4.32 4.32 76.08 235.44"
+*ImageableArea w102h252.1/99012 Large Address: "4.32 4.32 98.40 234.96"
+*ImageableArea w154h286.1/99014 Name Badge Label: "4.32 4.32 150.24 270.48"
+*ImageableArea w154h286.2/99014 Shipping: "4.32 4.32 150.24 270.48"
+*ImageableArea w154h198.2/99015 Diskette: "2.88 4.32 150.24 182.16"
+*ImageableArea w63h419/99016 Video Spine: "0.00 4.32 59.52 402.24"
+*ImageableArea w139h221/99016 Video Top: "0.00 4.32 136.08 204.48"
+*ImageableArea w36h144/99017 Suspension File: "2.88 4.32 33.12 127.92"
+*ImageableArea w108h539/99018 Small Lever Arch: "4.08 4.32 104.88 522.72"
+*ImageableArea w167h539/99019 Large Lever Arch: "4.08 4.32 163.68 522.72"
+*ImageableArea w154h7680/Banner: "4.08 17.04 148.08 7663.92"
+*ImageableArea w154h792/Continuous, Wide: "4.32 4.32 150.24 775.68"
+
+*DefaultPaperDimension: w167h288
+*PaperDimension w154h64/11351 Jewelry Label: "153.60 63.12"
+*PaperDimension w72h154/11352 Return Address Int: "72.00 153.12"
+*PaperDimension w72h72/11353 Multi-Purpose: "72.00 72.00"
+*PaperDimension w162h90/11354 Multi-Purpose: "162.00 90.00"
+*PaperDimension w54h144/11355 Multi-Purpose: "54.00 144.00"
+*PaperDimension w118h252/11356 White Name badge: "117.12 252.00"
+*PaperDimension w167h188/14681 CD/DVD Label: "166.32 187.20"
+*PaperDimension w79h252/30252 Address: "78.96 252.00"
+*PaperDimension w167h252/30253 Address (2 up): "166.32 252.00"
+*PaperDimension w167h288/30256 Shipping: "166.56 288.00"
+*PaperDimension w154h198/30258 Diskette: "153.12 198.00"
+*PaperDimension w82h248/30277 File Folder (2 up): "81.12 247.44"
+*PaperDimension w154h64.1/30299 Jewelry Label (2 up): "153.60 63.12"
+*PaperDimension w79h252.1/30320 Address: "78.96 252.00"
+*PaperDimension w102h252/30321 Large Address: "101.28 251.04"
+*PaperDimension w154h286/30323 Shipping: "153.12 285.84"
+*PaperDimension w154h198.1/30324 Diskette: "153.12 198.00"
+*PaperDimension w54h424/30325 Video Spine: "54.00 423.12"
+*PaperDimension w131h221/30326 Video Top: "130.56 220.56"
+*PaperDimension w57h248/30327 File Folder: "56.40 247.44"
+*PaperDimension w54h144.1/30330 Return Address: "54.00 144.00"
+*PaperDimension w72h72.1/30332 1 in x 1 in: "72.00 72.00"
+*PaperDimension w72h72.2/30333 1/2 in x 1 in (2 up): "72.00 72.00"
+*PaperDimension w162h90.1/30334 2-1/4 in x 1-1/4 in: "162.00 90.00"
+*PaperDimension 30334_2-1_4_in_x_1-1_4_in/30334 2-1/4 in x 1-1/4 in: "162.00 90.00"
+*PaperDimension w73h86/30335 1/2 in x 1/2 in (4 up): "72.96 85.44"
+*PaperDimension w72h154.1/30336 1 in x 2-1/8 in: "72.00 153.12"
+*PaperDimension w118h252.1/30337 Audio Cassette: "117.12 252.00"
+*PaperDimension w54h203/30339 8mm Video (2 up): "54.00 202.56"
+*PaperDimension w54h180/30345 3/4 in x 2-1/2 in: "54.00 180.00"
+*PaperDimension w36h136/30346 1/2 in x 1-7/8 in: "36.00 135.12"
+*PaperDimension w72h108/30347 1 in x 1-1/2 in: "72.00 108.00"
+*PaperDimension w65h90/30348 9/10 in x 1-1/4 in: "64.80 90.00"
+*PaperDimension w167h288.1/30364 Name Badge Label: "166.56 288.00"
+*PaperDimension w168h252/30365 Name Badge Card: "167.04 252.00"
+*PaperDimension w144h169/30370 Zip Disk: "144.00 168.72"
+*PaperDimension w71h144/30373 Price Tag Label: "70.32 144.00"
+*PaperDimension w144h252/30374 Appointment Card: "144.00 252.00"
+*PaperDimension w80h144/30376 Hanging File Insert: "79.20 144.00"
+*PaperDimension w162h504/30383 PC Postage 3-Part: "162.00 504.00"
+*PaperDimension 30383_PC_Postage_3-Part/30383 PC Postage 3-Part: "162.00 504.00"
+*PaperDimension w167h540/30384 PC Postage 2-Part: "166.56 540.00"
+*PaperDimension 30384_PC_Postage_2-Part/30384 PC Postage 2-Part: "166.56 540.00"
+*PaperDimension w167h756/30387 PC Postage EPS: "166.56 756.00"
+*PaperDimension 30387_PC_Postage_EPS/30387 PC Postage EPS: "166.56 756.00"
+*PaperDimension w167h188.1/30854 CD Label: "166.32 187.20"
+*PaperDimension w176h292/30856 Badge Card Label: "175.44 291.60"
+*PaperDimension w167h288.2/30857 Badge Label: "166.56 288.00"
+*PaperDimension w112h126/30886 CD Label: "111.36 126.00"
+*PaperDimension w79h252.2/99010 Standard Address: "78.96 252.00"
+*PaperDimension w102h252.1/99012 Large Address: "101.28 251.04"
+*PaperDimension w154h286.1/99014 Name Badge Label: "153.12 285.84"
+*PaperDimension w154h286.2/99014 Shipping: "153.12 285.84"
+*PaperDimension w154h198.2/99015 Diskette: "153.12 198.00"
+*PaperDimension w63h419/99016 Video Spine: "62.40 418.56"
+*PaperDimension w139h221/99016 Video Top: "138.96 220.56"
+*PaperDimension w36h144/99017 Suspension File: "36.00 144.00"
+*PaperDimension w108h539/99018 Small Lever Arch: "107.76 538.56"
+*PaperDimension w167h539/99019 Large Lever Arch: "166.56 538.56"
+*PaperDimension w154h7680/Banner: "153.12 7680.00"
+*PaperDimension w154h792/Continuous, Wide: "153.12 792.00"
+
+*% Custom page size support
+*HWMargins:      0 0 0 0
+*NonUIOrderDependency: 100 AnySetup *CustomPageSize True
+*CustomPageSize True/Custom Page Size: "pop pop pop <</PageSize[5 -2 roll]/ImagingBBox null/cupsInteger0 0>>setpagedevice"
+*ParamCustomPageSize Width:        1 points 10 161.28
+*ParamCustomPageSize Height:       2 points 10 7680
+*ParamCustomPageSize WidthOffset/Width Offset:  3 points 0 0
+*ParamCustomPageSize HeightOffset/Height Offset: 4 points 0 0
+*ParamCustomPageSize Orientation:  5 int 0 0
+
+*OpenUI *Resolution/Output Resolution: PickOne
+*OrderDependency: 20 AnySetup *Resolution
+*DefaultResolution: 300dpi
+*Resolution 300dpi/300 DPI: "<</HWResolution[300 300]>>setpagedevice"
+*Resolution 300x600dpi/300x600 DPI: "<</HWResolution[300 600]>>setpagedevice"
+*CloseUI: *Resolution
+
+*OpenUI *DymoHalftoning/Halftoning: PickOne
+*OrderDependency: 20 AnySetup *DymoHalftoning
+*DefaultDymoHalftoning: ErrorDiffusion
+*DymoHalftoning Default/Default: "<</cupsColorOrder 0/cupsColorSpace 3/cupsBitsPerColor 1/cupsBitsPerPixel 1>>setpagedevice"
+*DymoHalftoning ErrorDiffusion/Error Diffusion: "<</cupsColorOrder 0/cupsColorSpace 1/cupsBitsPerColor 8>>setpagedevice"
+*DymoHalftoning NLL/Nonlinear Dithering: "<</cupsColorOrder 0/cupsColorSpace 1/cupsBitsPerColor 8>>setpagedevice"
+
+*de.Translation DymoHalftoning/Halbtöne: ""
+*de.DymoHalftoning Default/Standard: ""
+*de.DymoHalftoning ErrorDiffusion/Fehlerstreuung: ""
+*de.DymoHalftoning NLL/Nichtlineare Farbmischung: ""
+
+*es.Translation DymoHalftoning/Proceso de semitono: ""
+*es.DymoHalftoning Default/Predeterminado: ""
+*es.DymoHalftoning ErrorDiffusion/Difusión de errores: ""
+*es.DymoHalftoning NLL/Interpolación no linear: ""
+
+*es_CO.Translation DymoHalftoning/Proceso de semitono: ""
+*es_CO.DymoHalftoning Default/Predeterminado: ""
+*es_CO.DymoHalftoning ErrorDiffusion/Difusión de errores: ""
+*es_CO.DymoHalftoning NLL/Interpolación no linear: ""
+
+*fr.Translation DymoHalftoning/Tramage: ""
+*fr.DymoHalftoning Default/Par défaut: ""
+*fr.DymoHalftoning ErrorDiffusion/Diffusion d'erreur: ""
+*fr.DymoHalftoning NLL/Juxtaposition non linéaire: ""
+
+*fr_CA.Translation DymoHalftoning/Tramage: ""
+*fr_CA.DymoHalftoning Default/Par défaut: ""
+*fr_CA.DymoHalftoning ErrorDiffusion/Diffusion d'erreur: ""
+*fr_CA.DymoHalftoning NLL/Juxtaposition non linéaire: ""
+
+*it.Translation DymoHalftoning/Mezzitoni: ""
+*it.DymoHalftoning Default/Predefinito: ""
+*it.DymoHalftoning ErrorDiffusion/Diffusione errore: ""
+*it.DymoHalftoning NLL/Retino non lineare: ""
+
+*nl.Translation DymoHalftoning/Halftoon: ""
+*nl.DymoHalftoning Default/Standaard: ""
+*nl.DymoHalftoning ErrorDiffusion/Foutdiffusie: ""
+*nl.DymoHalftoning NLL/Niet-lineaire rastering: ""
+
+*pt.Translation DymoHalftoning/Meio-tom: ""
+*pt.DymoHalftoning Default/Padrão: ""
+*pt.DymoHalftoning ErrorDiffusion/Difusão de erro: ""
+*pt.DymoHalftoning NLL/Pontilhado não linear: ""
+
+*pt_BR.Translation DymoHalftoning/Meio-tom: ""
+*pt_BR.DymoHalftoning Default/Padrão: ""
+*pt_BR.DymoHalftoning ErrorDiffusion/Difusão de erro: ""
+*pt_BR.DymoHalftoning NLL/Pontilhado não linear: ""
+
+*CloseUI: *DymoHalftoning
+
+*OpenUI *DymoPrintDensity/Print Density: PickOne
+*OrderDependency: 20 AnySetup *DymoPrintDensity
+*DefaultDymoPrintDensity: Normal
+*DymoPrintDensity Light/Light: ""
+*DymoPrintDensity Medium/Medium: ""
+*DymoPrintDensity Normal/Normal: ""
+*DymoPrintDensity Dark/Dark: ""
+
+*de.Translation DymoPrintDensity/Druckdichte: ""
+*de.DymoPrintDensity Light/Niedrig: ""
+*de.DymoPrintDensity Medium/Mittel: ""
+*de.DymoPrintDensity Normal/Normal: ""
+*de.DymoPrintDensity Dark/Hoch: ""
+
+*es.Translation DymoPrintDensity/Densidad de impresión: ""
+*es.DymoPrintDensity Light/Bajo: ""
+*es.DymoPrintDensity Medium/Mediano: ""
+*es.DymoPrintDensity Normal/Normal: ""
+*es.DymoPrintDensity Dark/Alto: ""
+
+*es_CO.Translation DymoPrintDensity/Densidad de impresión: ""
+*es_CO.DymoPrintDensity Light/Bajo: ""
+*es_CO.DymoPrintDensity Medium/Mediano: ""
+*es_CO.DymoPrintDensity Normal/Normal: ""
+*es_CO.DymoPrintDensity Dark/Alto: ""
+
+*fr.Translation DymoPrintDensity/Densité d’impression: ""
+*fr.DymoPrintDensity Light/Faible: ""
+*fr.DymoPrintDensity Medium/Moyenne: ""
+*fr.DymoPrintDensity Normal/Normale: ""
+*fr.DymoPrintDensity Dark/Élevée: ""
+
+*fr_CA.Translation DymoPrintDensity/Densité d'impression: ""
+*fr_CA.DymoPrintDensity Light/Faible: ""
+*fr_CA.DymoPrintDensity Medium/Moyenne: ""
+*fr_CA.DymoPrintDensity Normal/Normale: ""
+*fr_CA.DymoPrintDensity Dark/Élevée: ""
+
+*it.Translation DymoPrintDensity/Densità di stampa: ""
+*it.DymoPrintDensity Light/Leggera: ""
+*it.DymoPrintDensity Medium/Media: ""
+*it.DymoPrintDensity Normal/Normale: ""
+*it.DymoPrintDensity Dark/Scura: ""
+
+*nl.Translation DymoPrintDensity/Afdrukdichtheid: ""
+*nl.DymoPrintDensity Light/Laag: ""
+*nl.DymoPrintDensity Medium/Middel: ""
+*nl.DymoPrintDensity Normal/Normaal: ""
+*nl.DymoPrintDensity Dark/Hoog: ""
+
+*pt.Translation DymoPrintDensity/Densid. de impressão: ""
+*pt.DymoPrintDensity Light/Baixo: ""
+*pt.DymoPrintDensity Medium/Médio: ""
+*pt.DymoPrintDensity Normal/Normal: ""
+*pt.DymoPrintDensity Dark/Alto: ""
+
+*pt_BR.Translation DymoPrintDensity/Densid. de impressão: ""
+*pt_BR.DymoPrintDensity Light/Baixo: ""
+*pt_BR.DymoPrintDensity Medium/Médio: ""
+*pt_BR.DymoPrintDensity Normal/Normal: ""
+*pt_BR.DymoPrintDensity Dark/Alto: ""
+
+*CloseUI: *DymoPrintDensity
+
+*OpenUI *DymoPrintQuality/Print Quality: PickOne
+*OrderDependency: 21 AnySetup *DymoPrintQuality
+*DefaultDymoPrintQuality: Text
+*DymoPrintQuality Text/Text Only: "<</HWResolution[300 300]>>setpagedevice"
+*DymoPrintQuality Graphics/Barcodes and Graphics: "<</HWResolution[300 600]>>setpagedevice"
+
+*de.Translation DymoPrintQuality/Druckqualität: ""
+*de.DymoPrintQuality Text/Nur Text: ""
+*de.DymoPrintQuality Graphics/Barcode und Grafik: ""
+
+*es.Translation DymoPrintQuality/Calidad de impresión: ""
+*es.DymoPrintQuality Text/Sólo texto: ""
+*es.DymoPrintQuality Graphics/Código de barras y gráficas: ""
+
+*es_CO.Translation DymoPrintQuality/Calidad de impresión: ""
+*es_CO.DymoPrintQuality Text/Sólo texto: ""
+*es_CO.DymoPrintQuality Graphics/Código de barras y gráficas: ""
+
+*fr.Translation DymoPrintQuality/Qualité d’impression: ""
+*fr.DymoPrintQuality Text/Texte uniquement: ""
+*fr.DymoPrintQuality Graphics/Code-barres et graphisme: ""
+
+*fr_CA.Translation DymoPrintQuality/Qualité d'impression: ""
+*fr_CA.DymoPrintQuality Text/Texte uniquement: ""
+*fr_CA.DymoPrintQuality Graphics/Code-barres et graphisme: ""
+
+*it.Translation DymoPrintQuality/Qualità della stampa: ""
+*it.DymoPrintQuality Text/Solo testo: ""
+*it.DymoPrintQuality Graphics/Codice a barre e grafica: ""
+
+*nl.Translation DymoPrintQuality/Afdrukkwaliteit: ""
+*nl.DymoPrintQuality Text/Alleen tekst: ""
+*nl.DymoPrintQuality Graphics/Streepjescode en afbeeldingen: ""
+
+*pt.Translation DymoPrintQuality/Qualid. da impressão: ""
+*pt.DymoPrintQuality Text/Somente texto: ""
+*pt.DymoPrintQuality Graphics/Código de barras e gráficos: ""
+
+*pt_BR.Translation DymoPrintQuality/Qualid. da impressão: ""
+*pt_BR.DymoPrintQuality Text/Somente texto: ""
+*pt_BR.DymoPrintQuality Graphics/Código de barras e gráficos: ""
+
+*CloseUI: *DymoPrintQuality
+
+*UIConstraints: *DymoPrintQuality Text       *Resolution       300x600dpi
+*UIConstraints: *DymoPrintQuality Graphics   *Resolution       300dpi
+*UIConstraints: *Resolution       300x600dpi *DymoPrintQuality Text 
+*UIConstraints: *Resolution       300dpi     *DymoPrintQuality Graphics
+
+*DefaultFont: Courier
+*Font AvantGarde-Book: Standard "(001.006S)" Standard ROM
+*Font AvantGarde-BookOblique: Standard "(001.006S)" Standard ROM
+*Font AvantGarde-Demi: Standard "(001.007S)" Standard ROM
+*Font AvantGarde-DemiOblique: Standard "(001.007S)" Standard ROM
+*Font Bookman-Demi: Standard "(001.004S)" Standard ROM
+*Font Bookman-DemiItalic: Standard "(001.004S)" Standard ROM
+*Font Bookman-Light: Standard "(001.004S)" Standard ROM
+*Font Bookman-LightItalic: Standard "(001.004S)" Standard ROM
+*Font Courier: Standard "(002.004S)" Standard ROM
+*Font Courier-Bold: Standard "(002.004S)" Standard ROM
+*Font Courier-BoldOblique: Standard "(002.004S)" Standard ROM
+*Font Courier-Oblique: Standard "(002.004S)" Standard ROM
+*Font Helvetica: Standard "(001.006S)" Standard ROM
+*Font Helvetica-Bold: Standard "(001.007S)" Standard ROM
+*Font Helvetica-BoldOblique: Standard "(001.007S)" Standard ROM
+*Font Helvetica-Narrow: Standard "(001.006S)" Standard ROM
+*Font Helvetica-Narrow-Bold: Standard "(001.007S)" Standard ROM
+*Font Helvetica-Narrow-BoldOblique: Standard "(001.007S)" Standard ROM
+*Font Helvetica-Narrow-Oblique: Standard "(001.006S)" Standard ROM
+*Font Helvetica-Oblique: Standard "(001.006S)" Standard ROM
+*Font NewCenturySchlbk-Bold: Standard "(001.009S)" Standard ROM
+*Font NewCenturySchlbk-BoldItalic: Standard "(001.007S)" Standard ROM
+*Font NewCenturySchlbk-Italic: Standard "(001.006S)" Standard ROM
+*Font NewCenturySchlbk-Roman: Standard "(001.007S)" Standard ROM
+*Font Palatino-Bold: Standard "(001.005S)" Standard ROM
+*Font Palatino-BoldItalic: Standard "(001.005S)" Standard ROM
+*Font Palatino-Italic: Standard "(001.005S)" Standard ROM
+*Font Palatino-Roman: Standard "(001.005S)" Standard ROM
+*Font Symbol: Special "(001.007S)" Special ROM
+*Font Times-Bold: Standard "(001.007S)" Standard ROM
+*Font Times-BoldItalic: Standard "(001.009S)" Standard ROM
+*Font Times-Italic: Standard "(001.007S)" Standard ROM
+*Font Times-Roman: Standard "(001.007S)" Standard ROM
+*Font ZapfChancery-MediumItalic: Standard "(001.007S)" Standard ROM
+*Font ZapfDingbats: Special "(001.004S)" Standard ROM
+
+*%
+*%  End of "$Id: lw450.ppd 16401 2011-10-31 18:51:16Z pineichen $"
+*%

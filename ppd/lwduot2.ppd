@@ -1,0 +1,755 @@
+*PPD-Adobe: "4.3"
+
+*% $Id: lwduot2.ppd 16401 2011-10-31 18:51:16Z pineichen $
+
+*% DYMO LabelWriter Drivers
+*% Copyright (C) 2008 Sanford L.P.
+
+*% This program is free software; you can redistribute it and/or
+*% modify it under the terms of the GNU General Public License
+*% as published by the Free Software Foundation; either version 2
+*% of the License, or (at your option) any later version.
+
+*% This program is distributed in the hope that it will be useful,
+*% but WITHOUT ANY WARRANTY; without even the implied warranty of
+*% MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+*% GNU General Public License for more details.
+
+*% You should have received a copy of the GNU General Public License
+*% along with this program; if not, write to the Free Software
+*% Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.
+
+*FormatVersion: "4.3"
+*FileVersion:   "3.0"
+*LanguageVersion: English 
+*LanguageEncoding: ISOLatin1
+*PCFileName:    "LWDUOT2.PPD"
+*Manufacturer:  "DYMO"
+*Product:   "(DYMO LabelWriter DUO Tape 128)"
+*cupsVersion:   1.2
+*cupsManualCopies: False
+*cupsFilter:    "application/vnd.cups-raster 0 raster2dymolm"
+*cupsModelNumber: 0
+*PSVersion: "(3010.000) 550"
+*LanguageLevel: "3"
+*ColorDevice:   False
+*DefaultColorSpace: Gray
+*FileSystem:    False
+*Throughput:    "8"
+*LandscapeOrientation: Minus90
+*TTRasterizer:  Type42
+
+*ModelName: "DYMO LabelWriter DUO Tape 128"
+*NickName: "DYMO LabelWriter DUO Tape 128"
+*ShortNickName: "DYMO LabelWriter DUO Tape 128"
+*APPrinterIconPath: "/Library/Printers/DYMO/CUPS/Resources/LWDuo.icns"
+
+*cupsIPPReason com.dymo.out-of-paper-error/Out of labels. : ""
+*cupsIPPReason com.dymo.read-error/Cannot read data from printer. : ""
+*cupsIPPReason com.dymo.ready/Printer is ready. : ""
+*cupsIPPReason com.dymo.general-error/General print error. : ""
+*cupsIPPReason com.dymo.head-overheat-error/Print head is overheated. : ""
+*cupsIPPReason com.dymo.slot-status-error/Label path is blocked. : ""
+*cupsIPPReason com.dymo.busy-error/The printer is currently in use. : ""
+*cupsIPPReason com.dymo.paper-size-error/Label being printed does not match label width currently in printer. : ""
+*cupsIPPReason com.dymo.paper-size-undefine-error/Insert a label cassette in the printer. : ""
+
+*de.cupsIPPReason com.dymo.out-of-paper-error/Keine Etiketten mehr. : ""
+*de.cupsIPPReason com.dymo.read-error/Kann keine Daten vom Drucker lesen. : ""
+*de.cupsIPPReason com.dymo.ready/Drucker ist bereit. : ""
+*de.cupsIPPReason com.dymo.general-error/Allgemeiner Fehler beim Drucken. : ""
+*de.cupsIPPReason com.dymo.head-overheat-error/Druckkopf ist zu heiß. : ""
+*de.cupsIPPReason com.dymo.slot-status-error/Etikettenzuführung ist blockiert. : ""
+*de.cupsIPPReason com.dymo.busy-error/Der Drucker wird gegenwärtig verwendet. : ""
+*de.cupsIPPReason com.dymo.paper-size-error/Zu druckendes Etikett passt nicht zur Breite der Etiketten im Drucker. : ""
+*de.cupsIPPReason com.dymo.paper-size-undefine-error/Legen Sie eine Etikettenkassette in den Drucker ein. : ""
+
+*es.cupsIPPReason com.dymo.out-of-paper-error/No tiene etiquetas. : ""
+*es.cupsIPPReason com.dymo.read-error/No se pueden leer los datos de la impresora. : ""
+*es.cupsIPPReason com.dymo.ready/La impresora está lista. : ""
+*es.cupsIPPReason com.dymo.general-error/Erreur d'impression générale. : ""
+*es.cupsIPPReason com.dymo.head-overheat-error/El cabezal de impresión está sobrecalentado. : ""
+*es.cupsIPPReason com.dymo.slot-status-error/La trayectoria de la etiqueta está bloqueada. : ""
+*es.cupsIPPReason com.dymo.busy-error/La impresora se encuentra actualmente en uso. : ""
+*es.cupsIPPReason com.dymo.paper-size-error/La etiqueta que se imprime no coincide con el ancho actual de la impresora. : ""
+*es.cupsIPPReason com.dymo.paper-size-undefine-error/Inserte un cartucho de etiquetas en la impresora. : ""
+
+*es_CO.cupsIPPReason com.dymo.out-of-paper-error/No tiene etiquetas. : ""
+*es_CO.cupsIPPReason com.dymo.read-error/No se pueden leer los datos de la impresora. : ""
+*es_CO.cupsIPPReason com.dymo.ready/La impresora está lista. : ""
+*es_CO.cupsIPPReason com.dymo.general-error/Erreur d'impression générale. : ""
+*es_CO.cupsIPPReason com.dymo.head-overheat-error/El cabezal de impresión está sobrecalentado. : ""
+*es_CO.cupsIPPReason com.dymo.slot-status-error/La trayectoria de la etiqueta está bloqueada. : ""
+*es_CO.cupsIPPReason com.dymo.busy-error/La impresora se encuentra actualmente en uso. : ""
+*es_CO.cupsIPPReason com.dymo.paper-size-error/La etiqueta que se imprime no coincide con el ancho actual de la impresora. : ""
+*es_CO.cupsIPPReason com.dymo.paper-size-undefine-error/Inserte un cartucho de etiquetas en la impresora. : ""
+
+*fr.cupsIPPReason com.dymo.out-of-paper-error/Quantité d’étiquettes insuffisante. : ""
+*fr.cupsIPPReason com.dymo.read-error/Impossible de lire les données depuis l'imprimante. : ""
+*fr.cupsIPPReason com.dymo.ready/Imprimante prête. : ""
+*fr.cupsIPPReason com.dymo.general-error/Erreur d'impression générale. : ""
+*fr.cupsIPPReason com.dymo.head-overheat-error/Tête d'impression surchauffée. : ""
+*fr.cupsIPPReason com.dymo.slot-status-error/Chemin des étiquettes bloqué. : ""
+*fr.cupsIPPReason com.dymo.busy-error/Imprimante en cours d'utilisation. : ""
+*fr.cupsIPPReason com.dymo.paper-size-error/Étiquette en cours d'impression pas de la même largeur que dans l'imprimante. : ""
+*fr.cupsIPPReason com.dymo.paper-size-undefine-error/Insérer une cassette d'étiquettes dans l'imprimante. : ""
+
+*fr_CA.cupsIPPReason com.dymo.out-of-paper-error/Quantité d’étiquettes insuffisante. : ""
+*fr_CA.cupsIPPReason com.dymo.read-error/Impossible de lire les données depuis l'imprimante. : ""
+*fr_CA.cupsIPPReason com.dymo.ready/Imprimante prête. : ""
+*fr_CA.cupsIPPReason com.dymo.general-error/Erreur d'impression générale. : ""
+*fr_CA.cupsIPPReason com.dymo.head-overheat-error/Tête d'impression surchauffée. : ""
+*fr_CA.cupsIPPReason com.dymo.slot-status-error/Chemin des étiquettes bloqué. : ""
+*fr_CA.cupsIPPReason com.dymo.busy-error/Imprimante en cours d'utilisation. : ""
+*fr_CA.cupsIPPReason com.dymo.paper-size-error/Étiquette en cours d'impression pas de la même largeur que dans l'imprimante. : ""
+*fr_CA.cupsIPPReason com.dymo.paper-size-undefine-error/Insérer une cassette d'étiquettes dans l'imprimante. : ""
+
+*it.cupsIPPReason com.dymo.out-of-paper-error/Etichette esaurite. : ""
+*it.cupsIPPReason com.dymo.read-error/Impossibile leggere i dati dalla stampante. : ""
+*it.cupsIPPReason com.dymo.ready/Stampante pronta. : ""
+*it.cupsIPPReason com.dymo.general-error/Errore generico di stampa. : ""
+*it.cupsIPPReason com.dymo.head-overheat-error/Testina di stampa surriscaldata. : ""
+*it.cupsIPPReason com.dymo.slot-status-error/Percorso etichetta bloccato. : ""
+*it.cupsIPPReason com.dymo.busy-error/Stampante attualmente in uso. : ""
+*it.cupsIPPReason com.dymo.paper-size-error/L'etichetta in stampa è diversa dalla larghezza impostata nella stampante. : ""
+*it.cupsIPPReason com.dymo.paper-size-undefine-error/Inserire una cartuccia etichette nella stampante. : ""
+
+*nl.cupsIPPReason com.dymo.out-of-paper-error/Labels zijn op. : ""
+*nl.cupsIPPReason com.dymo.read-error/Kan gegevens van de printer niet lezen. : ""
+*nl.cupsIPPReason com.dymo.ready/Printer is gereed. : ""
+*nl.cupsIPPReason com.dymo.general-error/Algemene afdrukfout. : ""
+*nl.cupsIPPReason com.dymo.head-overheat-error/Printkop is oververhit. : ""
+*nl.cupsIPPReason com.dymo.slot-status-error/Labelspoor is geblokkeerd. : ""
+*nl.cupsIPPReason com.dymo.busy-error/De printer is momenteel in gebruik. : ""
+*nl.cupsIPPReason com.dymo.paper-size-error/De af te drukken label komt niet overeen met de labelbreedte in de printer. : ""
+*nl.cupsIPPReason com.dymo.paper-size-undefine-error/Plaats een labelcassette in de printer. : ""
+
+*pt.cupsIPPReason com.dymo.out-of-paper-error/Sem etiquetas. : ""
+*pt.cupsIPPReason com.dymo.read-error/Não é possível ler dados da impressora. : ""
+*pt.cupsIPPReason com.dymo.ready/A impressora está pronta. : ""
+*pt.cupsIPPReason com.dymo.general-error/Erro geral de impressão. : ""
+*pt.cupsIPPReason com.dymo.head-overheat-error/A cabeça de impressão está superaquecida. : ""
+*pt.cupsIPPReason com.dymo.slot-status-error/O caminho da etiqueta está bloqueado. : ""
+*pt.cupsIPPReason com.dymo.busy-error/A impressora está em uso no momento. : ""
+*pt.cupsIPPReason com.dymo.paper-size-error/A etiqueta sendo impressa não coincide com a largura da etiqueta na impressora. : ""
+*pt.cupsIPPReason com.dymo.paper-size-undefine-error/Inserir um cassete de etiquetas na impressora. : ""
+
+*pt_BR.cupsIPPReason com.dymo.out-of-paper-error/Sem etiquetas. : ""
+*pt_BR.cupsIPPReason com.dymo.read-error/Não é possível ler dados da impressora. : ""
+*pt_BR.cupsIPPReason com.dymo.ready/A impressora está pronta. : ""
+*pt_BR.cupsIPPReason com.dymo.general-error/Erro geral de impressão. : ""
+*pt_BR.cupsIPPReason com.dymo.head-overheat-error/A cabeça de impressão está superaquecida. : ""
+*pt_BR.cupsIPPReason com.dymo.slot-status-error/O caminho da etiqueta está bloqueado. : ""
+*pt_BR.cupsIPPReason com.dymo.busy-error/A impressora está em uso no momento. : ""
+*pt_BR.cupsIPPReason com.dymo.paper-size-error/A etiqueta sendo impressa não coincide com a largura da etiqueta na impressora. : ""
+*pt_BR.cupsIPPReason com.dymo.paper-size-undefine-error/Inserir um cassete de etiquetas na impressora. : ""
+
+*% *UIConstraints: *PageSize w18h252 *MediaType 0
+*% *UIConstraints: *PageSize w26h252 *MediaType 1
+*% *UIConstraints: *PageSize w35h252.1 *MediaType 2
+*% *UIConstraints: *PageSize w55h252 *MediaType 3
+*% *UIConstraints: *PageSize w68h252   *MediaType 4
+*% *UIConstraints: *PageSize w35h252           *MediaType 2
+*% *UIConstraints: *PageSize w35h144           *MediaType 2
+*% *UIConstraints: *PageSize w35h252.2    *MediaType 2
+*% *UIConstraints: *PageSize w35h144.1    *MediaType 2
+*% *UIConstraints: *PageSize w68h252.2      *MediaType 4
+
+*OpenUI *MediaType/Label Width: PickOne
+*OrderDependency: 9 AnySetup *MediaType
+*DefaultMediaType: 24mm
+*MediaType 06mm/06 mm (1/4"): "<</cupsMediaType 0>>setpagedevice"
+*MediaType 09mm/09 mm (3/8"): "<</cupsMediaType 1>>setpagedevice"
+*MediaType 12mm/12 mm (1/2"): "<</cupsMediaType 2>>setpagedevice"
+*MediaType 19mm/19 mm (3/4"): "<</cupsMediaType 3>>setpagedevice"
+*MediaType 24mm/24 mm (1"):   "<</cupsMediaType 4>>setpagedevice"
+
+*de.Translation MediaType/Bandbreite: ""
+*de.MediaType 06mm/06 mm (1/4"): ""
+*de.MediaType 09mm/09 mm (3/8"): ""
+*de.MediaType 12mm/12 mm (1/2"): ""
+*de.MediaType 19mm/19 mm (3/4"): ""
+*de.MediaType 24mm/24 mm (1"): ""
+
+*es.Translation MediaType/Ancho de la cinta: ""
+*es.MediaType 06mm/06 mm (1/4"): ""
+*es.MediaType 09mm/09 mm (3/8"): ""
+*es.MediaType 12mm/12 mm (1/2"): ""
+*es.MediaType 19mm/19 mm (3/4"): ""
+*es.MediaType 24mm/24 mm (1"): ""
+
+*es_CO.Translation MediaType/Ancho de la cinta: ""
+*es_CO.MediaType 06mm/06 mm (1/4"): ""
+*es_CO.MediaType 09mm/09 mm (3/8"): ""
+*es_CO.MediaType 12mm/12 mm (1/2"): ""
+*es_CO.MediaType 19mm/19 mm (3/4"): ""
+*es_CO.MediaType 24mm/24 mm (1"): ""
+
+*fr.Translation MediaType/Largeur de ruban: ""
+*fr.MediaType 06mm/06 mm (1/4"): ""
+*fr.MediaType 09mm/09 mm (3/8"): ""
+*fr.MediaType 12mm/12 mm (1/2"): ""
+*fr.MediaType 19mm/19 mm (3/4"): ""
+*fr.MediaType 24mm/24 mm (1"): ""
+
+*fr_CA.Translation MediaType/Largeur de ruban: ""
+*fr_CA.MediaType 06mm/06 mm (1/4"): ""
+*fr_CA.MediaType 09mm/09 mm (3/8"): ""
+*fr_CA.MediaType 12mm/12 mm (1/2"): ""
+*fr_CA.MediaType 19mm/19 mm (3/4"): ""
+*fr_CA.MediaType 24mm/24 mm (1"): ""
+
+*it.Translation MediaType/Larghezza etichetta: ""
+*it.MediaType 06mm/06 mm (1/4"): ""
+*it.MediaType 09mm/09 mm (3/8"): ""
+*it.MediaType 12mm/12 mm (1/2"): ""
+*it.MediaType 19mm/19 mm (3/4"): ""
+*it.MediaType 24mm/24 mm (1"): ""
+
+*nl.Translation MediaType/Tapebreedte: ""
+*nl.MediaType 06mm/06 mm (1/4"): ""
+*nl.MediaType 09mm/09 mm (3/8"): ""
+*nl.MediaType 12mm/12 mm (1/2"): ""
+*nl.MediaType 19mm/19 mm (3/4"): ""
+*nl.MediaType 24mm/24 mm (1"): ""
+
+*pt.Translation MediaType/Largura da fita: ""
+*pt.MediaType 06mm/06 mm (1/4"): ""
+*pt.MediaType 09mm/09 mm (3/8"): ""
+*pt.MediaType 12mm/12 mm (1/2"): ""
+*pt.MediaType 19mm/19 mm (3/4"): ""
+*pt.MediaType 24mm/24 mm (1"): ""
+
+*pt_BR.Translation MediaType/Largura da fita: ""
+*pt_BR.MediaType 06mm/06 mm (1/4"): ""
+*pt_BR.MediaType 09mm/09 mm (3/8"): ""
+*pt_BR.MediaType 12mm/12 mm (1/2"): ""
+*pt_BR.MediaType 19mm/19 mm (3/4"): ""
+*pt_BR.MediaType 24mm/24 mm (1"): ""
+
+*CloseUI: *MediaType
+
+*OpenUI *PageSize/Media Size: PickOne
+*OrderDependency: 10 AnySetup *PageSize
+*DefaultPageSize: w68h252.2
+*PageSize w18h252/06 mm (1/4") Label: "<</PageSize[18 252]/ImagingBBox null/cupsMediaType 0/cupsInteger0 0>>setpagedevice"
+*PageSize w18h4000/06 mm (1/4") Continuous: "<</PageSize[18 4000]/ImagingBBox null/cupsMediaType 256/cupsInteger0 0>>setpagedevice"
+*PageSize w26h252/09 mm (3/8") Label: "<</PageSize[26 252]/ImagingBBox null/cupsMediaType 1/cupsInteger0 0>>setpagedevice"
+*PageSize w26h4000/09 mm (3/8") Continuous: "<</PageSize[26 4000]/ImagingBBox null/cupsMediaType 257/cupsInteger0 0>>setpagedevice"
+*PageSize w35h252/1/3 File: "<</PageSize[35 252]/ImagingBBox null/cupsMediaType 2/cupsInteger0 0>>setpagedevice"
+*PageSize w35h144/1/5 File: "<</PageSize[35 144]/ImagingBBox null/cupsMediaType 2/cupsInteger0 0>>setpagedevice"
+*PageSize w35h252.1/12 mm (1/2") Label: "<</PageSize[35 252]/ImagingBBox null/cupsMediaType 2/cupsInteger0 0>>setpagedevice"
+*PageSize w35h4000/12 mm (1/2") Continuous: "<</PageSize[35 4000]/ImagingBBox null/cupsMediaType 258/cupsInteger0 0>>setpagedevice"
+*PageSize w55h252/19 mm (3/4") Label: "<</PageSize[55 252]/ImagingBBox null/cupsMediaType 3/cupsInteger0 0>>setpagedevice"
+*PageSize w55h4000/19 mm (3/4") Continuous: "<</PageSize[55 4000]/ImagingBBox null/cupsMediaType 259/cupsInteger0 0>>setpagedevice"
+*PageSize w68h252/24 mm (1") Label: "<</PageSize[68 252]/ImagingBBox null/cupsMediaType 4/cupsInteger0 0>>setpagedevice"
+*PageSize w68h4000/24 mm (1") Continuous: "<</PageSize[68 4000]/ImagingBBox null/cupsMediaType 260/cupsInteger0 0>>setpagedevice"
+*PageSize w68h252.2/Address Label: "<</PageSize[68 252]/ImagingBBox null/cupsMediaType 4/cupsInteger0 0>>setpagedevice"
+*PageSize w35h252.2/Large Pendaflex: "<</PageSize[35 252]/ImagingBBox null/cupsMediaType 2/cupsInteger0 0>>setpagedevice"
+*PageSize w35h144.1/Small Pendaflex: "<</PageSize[35 144]/ImagingBBox null/cupsMediaType 2/cupsInteger0 0>>setpagedevice"
+*CloseUI: *PageSize
+
+*OpenUI *PageRegion: PickOne
+*OrderDependency: 10 AnySetup *PageRegion
+*DefaultPageRegion: w68h252.2
+*PageRegion w18h252/06 mm (1/4") Label: "<</PageSize[18 252]/ImagingBBox null/cupsMediaType 0/cupsInteger0 0>>setpagedevice"
+*PageRegion w18h4000/06 mm (1/4") Continuous: "<</PageSize[18 4000]/ImagingBBox null/cupsMediaType 256/cupsInteger0 0>>setpagedevice"
+*PageRegion w26h252/09 mm (3/8") Label: "<</PageSize[26 252]/ImagingBBox null/cupsMediaType 1/cupsInteger0 0>>setpagedevice"
+*PageRegion w26h4000/09 mm (3/8") Continuous: "<</PageSize[26 4000]/ImagingBBox null/cupsMediaType 257/cupsInteger0 0>>setpagedevice"
+*PageRegion w35h252/1/3 File: "<</PageSize[35 252]/ImagingBBox null/cupsMediaType 2/cupsInteger0 0>>setpagedevice"
+*PageRegion w35h144/1/5 File: "<</PageSize[35 144]/ImagingBBox null/cupsMediaType 2/cupsInteger0 0>>setpagedevice"
+*PageRegion w35h252.1/12 mm (1/2") Label: "<</PageSize[35 252]/ImagingBBox null/cupsMediaType 2/cupsInteger0 0>>setpagedevice"
+*PageRegion w35h4000/12 mm (1/2") Continuous: "<</PageSize[35 4000]/ImagingBBox null/cupsMediaType 258/cupsInteger0 0>>setpagedevice"
+*PageRegion w55h252/19 mm (3/4") Label: "<</PageSize[55 252]/ImagingBBox null/cupsMediaType 3/cupsInteger0 0>>setpagedevice"
+*PageRegion w55h4000/19 mm (3/4") Continuous: "<</PageSize[55 4000]/ImagingBBox null/cupsMediaType 259/cupsInteger0 0>>setpagedevice"
+*PageRegion w68h252/24 mm (1") Label: "<</PageSize[68 252]/ImagingBBox null/cupsMediaType 4/cupsInteger0 0>>setpagedevice"
+*PageRegion w68h4000/24 mm (1") Continuous: "<</PageSize[68 4000]/ImagingBBox null/cupsMediaType 260/cupsInteger0 0>>setpagedevice"
+*PageRegion w68h252.2/Address Label: "<</PageSize[68 252]/ImagingBBox null/cupsMediaType 4/cupsInteger0 0>>setpagedevice"
+*PageRegion w35h252.2/Large Pendaflex: "<</PageSize[35 252]/ImagingBBox null/cupsMediaType 2/cupsInteger0 0>>setpagedevice"
+*PageRegion w35h144.1/Small Pendaflex: "<</PageSize[35 144]/ImagingBBox null/cupsMediaType 2/cupsInteger0 0>>setpagedevice"
+*CloseUI: *PageRegion
+
+*DefaultImageableArea: w68h252.2
+*ImageableArea w18h252/06 mm (1/4") Label: "1.60 30.00 16.00 222.00"
+*ImageableArea w18h4000/06 mm (1/4") Continuous: "1.60 30.00 16.00 3970.00"
+*ImageableArea w26h252/09 mm (3/8") Label: "2.80 30.00 22.80 222.00"
+*ImageableArea w26h4000/09 mm (3/8") Continuous: "2.80 30.00 22.80 3970.00"
+*ImageableArea w35h252/1/3 File: "4.40 30.00 30.00 222.00"
+*ImageableArea w35h144/1/5 File: "4.40 30.00 30.00 114.00"
+*ImageableArea w35h252.1/12 mm (1/2") Label: "4.40 30.00 30.00 222.00"
+*ImageableArea w35h4000/12 mm (1/2") Continuous: "4.40 30.00 30.00 3970.00"
+*ImageableArea w55h252/19 mm (3/4") Label: "7.20 30.00 47.20 222.00"
+*ImageableArea w55h4000/19 mm (3/4") Continuous: "7.20 30.00 47.20 3970.00"
+*ImageableArea w68h252/24 mm (1") Label: "8.40 30.00 59.60 222.00"
+*ImageableArea w68h4000/24 mm (1") Continuous: "8.40 30.00 59.60 3970.00"
+*ImageableArea w68h252.2/Address Label: "8.40 30.00 59.60 222.00"
+*ImageableArea w35h252.2/Large Pendaflex: "4.40 30.00 30.00 222.00"
+*ImageableArea w35h144.1/Small Pendaflex: "4.40 30.00 30.00 114.00"
+
+*DefaultPaperDimension: w68h252.2
+*PaperDimension w18h252/06 mm (1/4") Label: "17.60 252.00"
+*PaperDimension w18h4000/06 mm (1/4") Continuous: "17.60 4000.00"
+*PaperDimension w26h252/09 mm (3/8") Label: "25.60 252.00"
+*PaperDimension w26h4000/09 mm (3/8") Continuous: "25.60 4000.00"
+*PaperDimension w35h252/1/3 File: "34.40 252.00"
+*PaperDimension w35h144/1/5 File: "34.40 144.00"
+*PaperDimension w35h252.1/12 mm (1/2") Label: "34.40 252.00"
+*PaperDimension w35h4000/12 mm (1/2") Continuous: "34.40 4000.00"
+*PaperDimension w55h252/19 mm (3/4") Label: "54.40 252.00"
+*PaperDimension w55h4000/19 mm (3/4") Continuous: "54.40 4000.00"
+*PaperDimension w68h252/24 mm (1") Label: "68.00 252.00"
+*PaperDimension w68h4000/24 mm (1") Continuous: "68.00 4000.00"
+*PaperDimension w68h252.2/Address Label: "68.00 252.00"
+*PaperDimension w35h252.2/Large Pendaflex: "34.40 252.00"
+*PaperDimension w35h144.1/Small Pendaflex: "34.40 144.00"
+
+*MaxMediaWidth:  "51.2"
+*MaxMediaHeight: "12800"
+*HWMargins:      0 0 0 0
+*CustomPageSize True: "pop pop pop <</PageSize[5 -2 roll]/ImagingBBox null/cupsInteger0 0>>setpagedevice"
+*ParamCustomPageSize Width:        1 points 14.4 51.2
+*ParamCustomPageSize Height:       2 points 16 12800
+*ParamCustomPageSize WidthOffset:  3 points 0 0
+*ParamCustomPageSize HeightOffset: 4 points 0 0
+*ParamCustomPageSize Orientation:  5 int 0 0
+
+*OpenUI *Resolution/Output Resolution: PickOne
+*OrderDependency: 20 AnySetup *Resolution
+*DefaultResolution: 180dpi
+*Resolution 180dpi/180 DPI: "<</HWResolution[180 180]>>setpagedevice"
+*CloseUI: *Resolution
+
+*OpenUI *DymoHalftoning/Halftoning: PickOne
+*OrderDependency: 20 AnySetup *DymoHalftoning
+*DefaultDymoHalftoning: ErrorDiffusion
+*DymoHalftoning Default/Default: "<</cupsColorOrder 0/cupsColorSpace 3/cupsBitsPerColor 1/cupsBitsPerPixel 1>>setpagedevice"
+*DymoHalftoning ErrorDiffusion/Error Diffusion: "<</cupsColorOrder 0/cupsColorSpace 1/cupsBitsPerColor 8>>setpagedevice"
+*DymoHalftoning NLL/Nonlinear Dithering: "<</cupsColorOrder 0/cupsColorSpace 1/cupsBitsPerColor 8>>setpagedevice"
+
+*de.Translation DymoHalftoning/Halbtöne: ""
+*de.DymoHalftoning Default/Standard: ""
+*de.DymoHalftoning ErrorDiffusion/Fehlerstreuung: ""
+*de.DymoHalftoning NLL/Nichtlineare Farbmischung: ""
+
+*es.Translation DymoHalftoning/Proceso de semitono: ""
+*es.DymoHalftoning Default/Predeterminado: ""
+*es.DymoHalftoning ErrorDiffusion/Difusión de errores: ""
+*es.DymoHalftoning NLL/Interpolación no linear: ""
+
+*es_CO.Translation DymoHalftoning/Proceso de semitono: ""
+*es_CO.DymoHalftoning Default/Predeterminado: ""
+*es_CO.DymoHalftoning ErrorDiffusion/Difusión de errores: ""
+*es_CO.DymoHalftoning NLL/Interpolación no linear: ""
+
+*fr.Translation DymoHalftoning/Tramage: ""
+*fr.DymoHalftoning Default/Par défaut: ""
+*fr.DymoHalftoning ErrorDiffusion/Diffusion d'erreur: ""
+*fr.DymoHalftoning NLL/Juxtaposition non linéaire: ""
+
+*fr_CA.Translation DymoHalftoning/Tramage: ""
+*fr_CA.DymoHalftoning Default/Par défaut: ""
+*fr_CA.DymoHalftoning ErrorDiffusion/Diffusion d'erreur: ""
+*fr_CA.DymoHalftoning NLL/Juxtaposition non linéaire: ""
+
+*it.Translation DymoHalftoning/Mezzitoni: ""
+*it.DymoHalftoning Default/Predefinito: ""
+*it.DymoHalftoning ErrorDiffusion/Diffusione errore: ""
+*it.DymoHalftoning NLL/Retino non lineare: ""
+
+*nl.Translation DymoHalftoning/Halftoon: ""
+*nl.DymoHalftoning Default/Standaard: ""
+*nl.DymoHalftoning ErrorDiffusion/Foutdiffusie: ""
+*nl.DymoHalftoning NLL/Niet-lineaire rastering: ""
+
+*pt.Translation DymoHalftoning/Meio-tom: ""
+*pt.DymoHalftoning Default/Padrão: ""
+*pt.DymoHalftoning ErrorDiffusion/Difusão de erro: ""
+*pt.DymoHalftoning NLL/Pontilhado não linear: ""
+
+*pt_BR.Translation DymoHalftoning/Meio-tom: ""
+*pt_BR.DymoHalftoning Default/Padrão: ""
+*pt_BR.DymoHalftoning ErrorDiffusion/Difusão de erro: ""
+*pt_BR.DymoHalftoning NLL/Pontilhado não linear: ""
+
+*CloseUI: *DymoHalftoning
+
+*OpenUI *DymoCutOptions/Cut Options: PickOne
+*OrderDependency: 20 AnySetup *DymoCutOptions
+*DefaultDymoCutOptions: Cut
+*DymoCutOptions Cut/Cut: ""
+*DymoCutOptions ChainMarks/Chain Marks: ""
+
+*de.Translation DymoCutOptions/Schnittoptionen: ""
+*de.DymoCutOptions Cut/Autom. schneiden: ""
+*de.DymoCutOptions ChainMarks/Schnittmarken drucken: ""
+
+*es.Translation DymoCutOptions/Opciones para cortar: ""
+*es.DymoCutOptions Cut/Corte automático: ""
+*es.DymoCutOptions ChainMarks/Imprimir marcas del corte: ""
+
+*es_CO.Translation DymoCutOptions/Opciones para cortar: ""
+*es_CO.DymoCutOptions Cut/Corte automático: ""
+*es_CO.DymoCutOptions ChainMarks/Imprimir marcas del corte: ""
+
+*fr.Translation DymoCutOptions/Options de coupe: ""
+*fr.DymoCutOptions Cut/Coupe automatique: ""
+*fr.DymoCutOptions ChainMarks/Imprimer les lignes pointillées: ""
+
+*fr_CA.Translation DymoCutOptions/Options de coupe: ""
+*fr_CA.DymoCutOptions Cut/Coupe automatique: ""
+*fr_CA.DymoCutOptions ChainMarks/Imprimer les lignes pointillées: ""
+
+*it.Translation DymoCutOptions/Opzioni di taglio: ""
+*it.DymoCutOptions Cut/Taglia: ""
+*it.DymoCutOptions ChainMarks/Crocini continui: ""
+
+*nl.Translation DymoCutOptions/Knipopties: ""
+*nl.DymoCutOptions Cut/Automatisch knippen: ""
+*nl.DymoCutOptions ChainMarks/Scheidingslijnen afdrukken: ""
+
+*pt.Translation DymoCutOptions/Opções de corte: ""
+*pt.DymoCutOptions Cut/Corte automático: ""
+*pt.DymoCutOptions ChainMarks/Imprimir marcas de corte: ""
+
+*pt_BR.Translation DymoCutOptions/Opções de corte: ""
+*pt_BR.DymoCutOptions Cut/Corte automático: ""
+*pt_BR.DymoCutOptions ChainMarks/Imprimir marcas de corte: ""
+
+*CloseUI: *DymoCutOptions
+
+*OpenUI *DymoLabelAlignment/Label Alignment: PickOne
+*OrderDependency: 20 AnySetup *DymoLabelAlignment
+*DefaultDymoLabelAlignment: Center
+*DymoLabelAlignment Center/Centered: ""
+*DymoLabelAlignment Left/Left Aligned: ""
+*DymoLabelAlignment Right/Right Aligned: ""
+
+*de.Translation DymoLabelAlignment/Ausrichtung: ""
+*de.DymoLabelAlignment Center/Zentriert: ""
+*de.DymoLabelAlignment Left/Linksbündig: ""
+*de.DymoLabelAlignment Right/Rechtsbündig: ""
+
+*es.Translation DymoLabelAlignment/Alineación: ""
+*es.DymoLabelAlignment Center/Centrada: ""
+*es.DymoLabelAlignment Left/Alineada a la izquierda: ""
+*es.DymoLabelAlignment Right/Alineada a la derecha: ""
+
+*es_CO.Translation DymoLabelAlignment/Alineación: ""
+*es_CO.DymoLabelAlignment Center/Centrada: ""
+*es_CO.DymoLabelAlignment Left/Alineada a la izquierda: ""
+*es_CO.DymoLabelAlignment Right/Alineada a la derecha: ""
+
+*fr.Translation DymoLabelAlignment/Alignement: ""
+*fr.DymoLabelAlignment Center/Centré: ""
+*fr.DymoLabelAlignment Left/Aligné à gauche: ""
+*fr.DymoLabelAlignment Right/Aligné à droite: ""
+
+*fr_CA.Translation DymoLabelAlignment/Alignement: ""
+*fr_CA.DymoLabelAlignment Center/Centré: ""
+*fr_CA.DymoLabelAlignment Left/Aligné à gauche: ""
+*fr_CA.DymoLabelAlignment Right/Aligné à droite: ""
+
+*it.Translation DymoLabelAlignment/Allineamento: ""
+*it.DymoLabelAlignment Center/Centrato: ""
+*it.DymoLabelAlignment Left/Sinistra: ""
+*it.DymoLabelAlignment Right/Destra: ""
+
+*nl.Translation DymoLabelAlignment/Uitlijning: ""
+*nl.DymoLabelAlignment Center/Gecentreerd: ""
+*nl.DymoLabelAlignment Left/Links uitgelijnd: ""
+*nl.DymoLabelAlignment Right/Rechts uitgelijnd: ""
+
+*pt.Translation DymoLabelAlignment/Alinhamento: ""
+*pt.DymoLabelAlignment Center/Centralizado: ""
+*pt.DymoLabelAlignment Left/Alinhado à esquerda: ""
+*pt.DymoLabelAlignment Right/Alinhado à direita: ""
+
+*pt_BR.Translation DymoLabelAlignment/Alinhamento: ""
+*pt_BR.DymoLabelAlignment Center/Centralizado: ""
+*pt_BR.DymoLabelAlignment Left/Alinhado à esquerda: ""
+*pt_BR.DymoLabelAlignment Right/Alinhado à direita: ""
+
+*CloseUI: *DymoLabelAlignment
+
+*OpenUI *DymoContinuousPaper/Continuous Paper: PickOne
+*OrderDependency: 20 AnySetup *DymoContinuousPaper
+*DefaultDymoContinuousPaper: 0
+*DymoContinuousPaper 0/Disabled: ""
+*DymoContinuousPaper 1/Enabled: ""
+
+*de.Translation DymoContinuousPaper/Endlospapier: ""
+*de.DymoContinuousPaper 0/Deaktiviert: ""
+*de.DymoContinuousPaper 1/Aktiviert: ""
+
+*es.Translation DymoContinuousPaper/Papel continuo: ""
+*es.DymoContinuousPaper 0/Inhabilitado: ""
+*es.DymoContinuousPaper 1/Habilitado: ""
+
+*es_CO.Translation DymoContinuousPaper/Papel continuo: ""
+*es_CO.DymoContinuousPaper 0/Inhabilitado: ""
+*es_CO.DymoContinuousPaper 1/Habilitado: ""
+
+*fr.Translation DymoContinuousPaper/Papier continu: ""
+*fr.DymoContinuousPaper 0/Désactivé: ""
+*fr.DymoContinuousPaper 1/Activé: ""
+
+*fr_CA.Translation DymoContinuousPaper/Papier continu: ""
+*fr_CA.DymoContinuousPaper 0/Désactivé: ""
+*fr_CA.DymoContinuousPaper 1/Activé: ""
+
+*it.Translation DymoContinuousPaper/Carta continua: ""
+*it.DymoContinuousPaper 0/Disabilitato: ""
+*it.DymoContinuousPaper 1/Abilitato: ""
+
+*nl.Translation DymoContinuousPaper/Kettingformulieren: ""
+*nl.DymoContinuousPaper 0/Uitgeschakeld: ""
+*nl.DymoContinuousPaper 1/Ingeschakeld: ""
+
+*pt.Translation DymoContinuousPaper/Papel contínuo: ""
+*pt.DymoContinuousPaper 0/Desativado: ""
+*pt.DymoContinuousPaper 1/Ativado: ""
+
+*pt_BR.Translation DymoContinuousPaper/Papel contínuo: ""
+*pt_BR.DymoContinuousPaper 0/Desativado: ""
+*pt_BR.DymoContinuousPaper 1/Ativado: ""
+
+*CloseUI: *DymoContinuousPaper
+
+*OpenUI *DymoPrintChainMarksAtDocEnd/Print Chain Marks at Doc End: PickOne
+*OrderDependency: 20 AnySetup *DymoPrintChainMarksAtDocEnd
+*DefaultDymoPrintChainMarksAtDocEnd: 0
+*DymoPrintChainMarksAtDocEnd 0/Disabled: ""
+*DymoPrintChainMarksAtDocEnd 1/Enabled: ""
+
+*de.Translation DymoPrintChainMarksAtDocEnd/Schnittmarken zwischen Etiketten drucken: ""
+*de.DymoPrintChainMarksAtDocEnd 0/Deaktiviert: ""
+*de.DymoPrintChainMarksAtDocEnd 1/Aktiviert: ""
+
+*es.Translation DymoPrintChainMarksAtDocEnd/Imprimir marcas de corte entre etiquetas: ""
+*es.DymoPrintChainMarksAtDocEnd 0/Inhabilitado: ""
+*es.DymoPrintChainMarksAtDocEnd 1/Habilitado: ""
+
+*es_CO.Translation DymoPrintChainMarksAtDocEnd/Imprimir marcas de corte entre etiquetas: ""
+*es_CO.DymoPrintChainMarksAtDocEnd 0/Inhabilitado: ""
+*es_CO.DymoPrintChainMarksAtDocEnd 1/Habilitado: ""
+
+*fr.Translation DymoPrintChainMarksAtDocEnd/Imprimer des lignes pointillées entre les étiquettes: ""
+*fr.DymoPrintChainMarksAtDocEnd 0/Désactivé: ""
+*fr.DymoPrintChainMarksAtDocEnd 1/Activé: ""
+
+*fr_CA.Translation DymoPrintChainMarksAtDocEnd/Imprimer des lignes pointillées entre les étiquettes: ""
+*fr_CA.DymoPrintChainMarksAtDocEnd 0/Désactivé: ""
+*fr_CA.DymoPrintChainMarksAtDocEnd 1/Activé: ""
+
+*it.Translation DymoPrintChainMarksAtDocEnd/Stampa crocini continui a fine doc: ""
+*it.DymoPrintChainMarksAtDocEnd 0/Disabilitato: ""
+*it.DymoPrintChainMarksAtDocEnd 1/Abilitato: ""
+
+*nl.Translation DymoPrintChainMarksAtDocEnd/Scheidingslijnen afdrukken tussen labels: ""
+*nl.DymoPrintChainMarksAtDocEnd 0/Uitgeschakeld: ""
+*nl.DymoPrintChainMarksAtDocEnd 1/Ingeschakeld: ""
+
+*pt.Translation DymoPrintChainMarksAtDocEnd/Imprimir marcas de corte entre as etiquetas: ""
+*pt.DymoPrintChainMarksAtDocEnd 0/Desativado: ""
+*pt.DymoPrintChainMarksAtDocEnd 1/Ativado: ""
+
+*pt_BR.Translation DymoPrintChainMarksAtDocEnd/Imprimir marcas de corte entre as etiquetas: ""
+*pt_BR.DymoPrintChainMarksAtDocEnd 0/Desativado: ""
+*pt_BR.DymoPrintChainMarksAtDocEnd 1/Ativado: ""
+
+*CloseUI: *DymoPrintChainMarksAtDocEnd
+
+*OpenUI *DymoTapeColor/Label Cassette Color: PickOne
+*OrderDependency: 20 AnySetup *DymoTapeColor
+*DefaultDymoTapeColor: 0
+*DymoTapeColor 0/Black on White or Clear: ""
+*DymoTapeColor 1/Black on Blue: ""
+*DymoTapeColor 2/Black on Red: ""
+*DymoTapeColor 3/Black on Silver: ""
+*DymoTapeColor 4/Black on Yellow: ""
+*DymoTapeColor 5/Black on Gold: ""
+*DymoTapeColor 6/Black on Green: ""
+*DymoTapeColor 7/Black on Fluorescent Green: ""
+*DymoTapeColor 8/Black on Fluorescent Red: ""
+*DymoTapeColor 9/White on Clear: ""
+*DymoTapeColor 10/White on Black: ""
+*DymoTapeColor 11/Blue on White or Clear: ""
+*DymoTapeColor 12/Red on White or Clear: ""
+
+*de.Translation DymoTapeColor/Farbe des Bandes: ""
+*de.DymoTapeColor 0/Schwarz auf Weiß oder Transparent: ""
+*de.DymoTapeColor 1/Schwarz auf Blau: ""
+*de.DymoTapeColor 2/Schwarz auf Rot: ""
+*de.DymoTapeColor 3/Schwarz auf Silber: ""
+*de.DymoTapeColor 4/Schwarz auf Gelb: ""
+*de.DymoTapeColor 5/Schwarz auf Gold: ""
+*de.DymoTapeColor 6/Schwarz auf Grün: ""
+*de.DymoTapeColor 7/Schwarz auf Fluo-Grün: ""
+*de.DymoTapeColor 8/Schwarz auf Fluo-Rot: ""
+*de.DymoTapeColor 9/Weiß auf Transparent: ""
+*de.DymoTapeColor 10/Weiß auf Schwarz: ""
+*de.DymoTapeColor 11/Blau auf Weiß oder Transparent: ""
+*de.DymoTapeColor 12/Rot auf Weiß oder Transparent: ""
+
+*es.Translation DymoTapeColor/Color de la cinta: ""
+*es.DymoTapeColor 0/Negro sobre blanco o transparente: ""
+*es.DymoTapeColor 1/Negro sobre azul: ""
+*es.DymoTapeColor 2/Negro sobre rojo: ""
+*es.DymoTapeColor 3/Negro sobre plata: ""
+*es.DymoTapeColor 4/Negro sobre amarillo: ""
+*es.DymoTapeColor 5/Negro sobre oro: ""
+*es.DymoTapeColor 6/Negro sobre verde: ""
+*es.DymoTapeColor 7/Negro sobre verde fluorescente: ""
+*es.DymoTapeColor 8/Negro sobre rojo fluorescente: ""
+*es.DymoTapeColor 9/Blanco sobre transparente: ""
+*es.DymoTapeColor 10/Blanco sobre negro: ""
+*es.DymoTapeColor 11/Azul sobre blanco o transparente: ""
+*es.DymoTapeColor 12/Rojo sobre blanco o transparente: ""
+
+*es_CO.Translation DymoTapeColor/Color de la cinta: ""
+*es_CO.DymoTapeColor 0/Negro sobre blanco o transparente: ""
+*es_CO.DymoTapeColor 1/Negro sobre azul: ""
+*es_CO.DymoTapeColor 2/Negro sobre rojo: ""
+*es_CO.DymoTapeColor 3/Negro sobre plata: ""
+*es_CO.DymoTapeColor 4/Negro sobre amarillo: ""
+*es_CO.DymoTapeColor 5/Negro sobre oro: ""
+*es_CO.DymoTapeColor 6/Negro sobre verde: ""
+*es_CO.DymoTapeColor 7/Negro sobre verde fluorescente: ""
+*es_CO.DymoTapeColor 8/Negro sobre rojo fluorescente: ""
+*es_CO.DymoTapeColor 9/Blanco sobre transparente: ""
+*es_CO.DymoTapeColor 10/Blanco sobre negro: ""
+*es_CO.DymoTapeColor 11/Azul sobre blanco o transparente: ""
+*es_CO.DymoTapeColor 12/Rojo sobre blanco o transparente: ""
+
+*fr.Translation DymoTapeColor/Couleur de cassette de ruban: ""
+*fr.DymoTapeColor 0/Noir sur blanc ou transparent: ""
+*fr.DymoTapeColor 1/Noir sur bleu: ""
+*fr.DymoTapeColor 2/Noir sur rouge: ""
+*fr.DymoTapeColor 3/Noir sur argent: ""
+*fr.DymoTapeColor 4/Noir sur jaune: ""
+*fr.DymoTapeColor 5/Noir sur or: ""
+*fr.DymoTapeColor 6/Noir sur vert: ""
+*fr.DymoTapeColor 7/Noir sur vert fluorescent: ""
+*fr.DymoTapeColor 8/Noir sur rouge fluorescent: ""
+*fr.DymoTapeColor 9/Blanc sur transparent: ""
+*fr.DymoTapeColor 10/Blanc sur noir: ""
+*fr.DymoTapeColor 11/Bleu sur blanc ou transparent: ""
+*fr.DymoTapeColor 12/Rouge sur blanc ou transparent: ""
+
+*fr_CA.Translation DymoTapeColor/Couleur de cassette de ruban: ""
+*fr_CA.DymoTapeColor 0/Noir sur blanc ou transparent: ""
+*fr_CA.DymoTapeColor 1/Noir sur bleu: ""
+*fr_CA.DymoTapeColor 2/Noir sur rouge: ""
+*fr_CA.DymoTapeColor 3/Noir sur argent: ""
+*fr_CA.DymoTapeColor 4/Noir sur jaune: ""
+*fr_CA.DymoTapeColor 5/Noir sur or: ""
+*fr_CA.DymoTapeColor 6/Noir sur vert: ""
+*fr_CA.DymoTapeColor 7/Noir sur vert fluorescent: ""
+*fr_CA.DymoTapeColor 8/Noir sur rouge fluorescent: ""
+*fr_CA.DymoTapeColor 9/Blanc sur transparent: ""
+*fr_CA.DymoTapeColor 10/Blanc sur noir: ""
+*fr_CA.DymoTapeColor 11/Bleu sur blanc ou transparent: ""
+*fr_CA.DymoTapeColor 12/Rouge sur blanc ou transparent: ""
+
+*it.Translation DymoTapeColor/Colore cartuccia etichette: ""
+*it.DymoTapeColor 0/Nero su bianco o trasparente: ""
+*it.DymoTapeColor 1/Nero su blu: ""
+*it.DymoTapeColor 2/Nero su rosso: ""
+*it.DymoTapeColor 3/Nero su argento: ""
+*it.DymoTapeColor 4/Nero su giallo: ""
+*it.DymoTapeColor 5/Nero su oro: ""
+*it.DymoTapeColor 6/Nero su verde: ""
+*it.DymoTapeColor 7/Nero su verde evidenziatore: ""
+*it.DymoTapeColor 8/Nero su rosso evidenziatore: ""
+*it.DymoTapeColor 9/Bianco su trasparente: ""
+*it.DymoTapeColor 10/Bianco su nero: ""
+*it.DymoTapeColor 11/Blu su bianco o trasparente: ""
+*it.DymoTapeColor 12/Rosso su bianco o trasparente: ""
+
+*nl.Translation DymoTapeColor/Kleur tapecassette: ""
+*nl.DymoTapeColor 0/Zwart op wit of transparant: ""
+*nl.DymoTapeColor 1/Zwart op blauw: ""
+*nl.DymoTapeColor 2/Zwart op rood: ""
+*nl.DymoTapeColor 3/Zwart op zilver: ""
+*nl.DymoTapeColor 4/Zwart op geel: ""
+*nl.DymoTapeColor 5/Zwart op goud: ""
+*nl.DymoTapeColor 6/Zwart op groen: ""
+*nl.DymoTapeColor 7/Zwart op fluorescerend groen: ""
+*nl.DymoTapeColor 8/Zwart op fluorescerend rood: ""
+*nl.DymoTapeColor 9/Wit op transparant: ""
+*nl.DymoTapeColor 10/Wit op zwart: ""
+*nl.DymoTapeColor 11/Blauw op wit of transparant: ""
+*nl.DymoTapeColor 12/Rood op wit of transparant: ""
+
+*pt.Translation DymoTapeColor/Cor do cassete de fita: ""
+*pt.DymoTapeColor 0/Preto sobre branco ou transparente: ""
+*pt.DymoTapeColor 1/Preto sobre azul: ""
+*pt.DymoTapeColor 2/Preto sobre vermelho: ""
+*pt.DymoTapeColor 3/Preto sobre prata: ""
+*pt.DymoTapeColor 4/Preto sobre amarelo: ""
+*pt.DymoTapeColor 5/Preto sobre dourado: ""
+*pt.DymoTapeColor 6/Preto sobre verde: ""
+*pt.DymoTapeColor 7/Preto sobre verde fluorescente: ""
+*pt.DymoTapeColor 8/Preto sobre vermelho fluorescente: ""
+*pt.DymoTapeColor 9/Branco sobre transparente: ""
+*pt.DymoTapeColor 10/Branco sobre preto: ""
+*pt.DymoTapeColor 11/Azul sobre branco ou transparente: ""
+*pt.DymoTapeColor 12/Vermelho sobre branco ou transparente: ""
+
+*pt_BR.Translation DymoTapeColor/Cor do cassete de fita: ""
+*pt_BR.DymoTapeColor 0/Preto sobre branco ou transparente: ""
+*pt_BR.DymoTapeColor 1/Preto sobre azul: ""
+*pt_BR.DymoTapeColor 2/Preto sobre vermelho: ""
+*pt_BR.DymoTapeColor 3/Preto sobre prata: ""
+*pt_BR.DymoTapeColor 4/Preto sobre amarelo: ""
+*pt_BR.DymoTapeColor 5/Preto sobre dourado: ""
+*pt_BR.DymoTapeColor 6/Preto sobre verde: ""
+*pt_BR.DymoTapeColor 7/Preto sobre verde fluorescente: ""
+*pt_BR.DymoTapeColor 8/Preto sobre vermelho fluorescente: ""
+*pt_BR.DymoTapeColor 9/Branco sobre transparente: ""
+*pt_BR.DymoTapeColor 10/Branco sobre preto: ""
+*pt_BR.DymoTapeColor 11/Azul sobre branco ou transparente: ""
+*pt_BR.DymoTapeColor 12/Vermelho sobre branco ou transparente: ""
+
+*CloseUI: *DymoTapeColor
+
+*DefaultFont: Courier
+*Font AvantGarde-Book: Standard "(001.006S)" Standard ROM
+*Font AvantGarde-BookOblique: Standard "(001.006S)" Standard ROM
+*Font AvantGarde-Demi: Standard "(001.007S)" Standard ROM
+*Font AvantGarde-DemiOblique: Standard "(001.007S)" Standard ROM
+*Font Bookman-Demi: Standard "(001.004S)" Standard ROM
+*Font Bookman-DemiItalic: Standard "(001.004S)" Standard ROM
+*Font Bookman-Light: Standard "(001.004S)" Standard ROM
+*Font Bookman-LightItalic: Standard "(001.004S)" Standard ROM
+*Font Courier: Standard "(002.004S)" Standard ROM
+*Font Courier-Bold: Standard "(002.004S)" Standard ROM
+*Font Courier-BoldOblique: Standard "(002.004S)" Standard ROM
+*Font Courier-Oblique: Standard "(002.004S)" Standard ROM
+*Font Helvetica: Standard "(001.006S)" Standard ROM
+*Font Helvetica-Bold: Standard "(001.007S)" Standard ROM
+*Font Helvetica-BoldOblique: Standard "(001.007S)" Standard ROM
+*Font Helvetica-Narrow: Standard "(001.006S)" Standard ROM
+*Font Helvetica-Narrow-Bold: Standard "(001.007S)" Standard ROM
+*Font Helvetica-Narrow-BoldOblique: Standard "(001.007S)" Standard ROM
+*Font Helvetica-Narrow-Oblique: Standard "(001.006S)" Standard ROM
+*Font Helvetica-Oblique: Standard "(001.006S)" Standard ROM
+*Font NewCenturySchlbk-Bold: Standard "(001.009S)" Standard ROM
+*Font NewCenturySchlbk-BoldItalic: Standard "(001.007S)" Standard ROM
+*Font NewCenturySchlbk-Italic: Standard "(001.006S)" Standard ROM
+*Font NewCenturySchlbk-Roman: Standard "(001.007S)" Standard ROM
+*Font Palatino-Bold: Standard "(001.005S)" Standard ROM
+*Font Palatino-BoldItalic: Standard "(001.005S)" Standard ROM
+*Font Palatino-Italic: Standard "(001.005S)" Standard ROM
+*Font Palatino-Roman: Standard "(001.005S)" Standard ROM
+*Font Symbol: Special "(001.007S)" Special ROM
+*Font Times-Bold: Standard "(001.007S)" Standard ROM
+*Font Times-BoldItalic: Standard "(001.009S)" Standard ROM
+*Font Times-Italic: Standard "(001.007S)" Standard ROM
+*Font Times-Roman: Standard "(001.007S)" Standard ROM
+*Font ZapfChancery-MediumItalic: Standard "(001.007S)" Standard ROM
+*Font ZapfDingbats: Special "(001.004S)" Standard ROM
+
+*%
+*%  End of "$Id: lwduot2.ppd 16401 2011-10-31 18:51:16Z pineichen $"
+*%

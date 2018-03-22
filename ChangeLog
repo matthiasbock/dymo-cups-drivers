@@ -1,0 +1,6 @@
+1.3.0 - added DYMO LabelWriter SE450 support
+1.2.0 - added 450 series support
+1.1.0 - added LabelWriter 4XL support; required CUPS 1.2
+1.0.3 - fixed compilation problems with gcc 4.3
+1.0.2 - added more debug messages
+1.0.0 - initial revision
