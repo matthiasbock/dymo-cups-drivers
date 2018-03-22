@@ -23,10 +23,35 @@ This repository contains an inofficial copy of Dymo's CUPS printer driver for Li
  lpr -o PageSize=Address_Label -o CutOptions=ChainMarks -o LabelAlignment=Right -o TapeColor=1
 ```
 
+## Supported devices
 
-# Installation instructions
+* DYMO LabelMANAGER 400
+* DYMO LabelMANAGER 450
+* DYMO LabelMANAGER PC
+* DYMO LabelMANAGER PC II
+* DYMO LabelManager PnP
+* DYMO LabelPOINT 350
+* DYMO LabelWriter 300
+* DYMO LabelWriter 310
+* DYMO LabelWriter 315
+* DYMO LabelWriter 320
+* DYMO LabelWriter 330
+* DYMO LabelWriter 330 Tubo
+* DYMO LabelWriter 400
+* DYMO LabelWriter 400 Turbo
+* DYMO LabelWriter 450
+* DYMO LabelWriter 450 DUO Label
+* DYMO LabelWriter 450 DUO Tape
+* DYMO LabelWriter 450 Turbo
+* DYMO LabelWriter 450 Twin Turbo
+* DYMO LabelWriter 4XL
+* DYMO LabelWriter DUO Label
+* DYMO LabelWriter DUO Tape
+* DYMO LabelWriter DUO Tape 128
+* DYMO LabelWriter SE450
+* DYMO LabelWriter Twin Turbo
 
-## Install Source Package
+## Build instructions
 
 To compile and install source package you will need:
   - recent C++ compiler. We used gcc ver. 3.3.5 & 4.0.1
