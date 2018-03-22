@@ -23,6 +23,7 @@
 
 #include <cups/cups.h>
 #include <cups/raster.h>
+#include <cups/ppd.h>
 #include "LabelWriterDriver.h"
 #include "LabelWriterLanguageMonitor.h"
 #include "DummyLanguageMonitor.h"
