@@ -121,7 +121,7 @@ CLabelWriterLanguageMonitor::CheckStatusAndReprint()
     
     byte    Status      = 0;
     time_t  BeginTime   = time(NULL);
-    bool    StatusOK    = ReadStatus(Status);
+//    bool    StatusOK    = ReadStatus(Status);
 
     // request status while good or bad condition or timeout
     int i = 0;
@@ -131,7 +131,8 @@ CLabelWriterLanguageMonitor::CheckStatusAndReprint()
       && (difftime(time(NULL), BeginTime) < ReadStatusTimeout_))
     {
       fprintf(stderr, "DEBUG: CLabelWriterLanguageMonitor::CheckStatusAndReprint() 2 %i\n", i);
-      StatusOK = ReadStatus(Status);
+//      StatusOK =
+      ReadStatus(Status);
       //usleep(100000);
       i++;
     }     
