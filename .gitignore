@@ -37,4 +37,12 @@ src/stamp-h1
 *.bin
 *.so
 *.lo
+src/lm/raster2dymolm
+src/lw/raster2dymolw
+
+# Eclipse project files
+.cproject
+.project
+.settings
+.metadata
 
