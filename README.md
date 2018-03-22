@@ -9,13 +9,19 @@ This repository contains an inofficial copy of Dymo's CUPS printer driver for Li
 # Some command examples
 
 * print very long text on a tape:
+```sh
  lpr -o landscape -o PageSize=24_mm__1___Label__Auto_ docs/test.txt
+```
 
 * set printing options specific to the LabelWriter driver
+```sh
  lpr -o PageSize=30252_Address -o PrintQuality=Graphics -o PrintDensity=Light docs/test.txt
+```
 
 * set printing options specific to the LabelManager driver
+```sh
  lpr -o PageSize=Address_Label -o CutOptions=ChainMarks -o LabelAlignment=Right -o TapeColor=1
+```
 
 
 # Installation instructions
@@ -28,11 +34,15 @@ To compile and install source package you will need:
   - installed CUPS libraries (libcups, libcupsimage)
   
 To compile sources run follow commands from the package directory:
+```sh
  ./configure
  make
+```
 
 To install compiled binaries and data files use command (you have to have root privileges):
+```sh
  make install
+ ```
 
 ## Known Problems
 
