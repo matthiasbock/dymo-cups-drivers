@@ -6,7 +6,7 @@ This repository contains an inofficial copy of Dymo's CUPS printer driver for Li
 
 * Vladimir Buzuev <vbuzuev@dymo.com>
 
-# Some command examples
+## Command examples
 
 * print very long text on a tape:
 ```sh
