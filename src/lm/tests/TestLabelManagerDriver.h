@@ -16,7 +16,7 @@
 
 // You should have received a copy of the GNU General Public License
 // along with this program; if not, write to the Free Software
-// Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.
+// Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
 
 #ifndef h89cd8614_1576_42a1_a747_8ce1ccab21c3
 #define h89cd8614_1576_42a1_a747_8ce1ccab21c3
