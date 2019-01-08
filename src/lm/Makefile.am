@@ -19,7 +19,7 @@
 
 SUBDIRS = tests
 
-INCLUDES = -I../common
+AM_CPPFLAGS = -I../common
 
 cupsfilter_PROGRAMS = raster2dymolm
 
