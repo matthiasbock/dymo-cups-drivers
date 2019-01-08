@@ -41,7 +41,7 @@ tests_SOURCES = \
     
 tests_LDADD = $(CUPS_LIBS) -lcppunit -ldl
 
-INCLUDES = -I../../common -I../../common/tests
+AM_CPPFLAGS = -I../../common -I../../common/tests
 
 #
 #  End of $Id: Makefile.am 15968 2011-09-02 14:56:33Z pineichen $

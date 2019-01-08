@@ -50,5 +50,5 @@ check_PROGRAMS = testppd
 
 testppd_SOURCES=
 
-testppd:
+testppd$(EXEEXT):
 	cupstestppd $(dist_cupsmodel_DATA)

@@ -25,7 +25,7 @@ CustomPaper_SOURCES = \
 
 CustomPaper_LDADD = $(CUPS_LIBS) -lcairo
 
-INCLUDES = -I/usr/include/cairo
+AM_CPPFLAGS = -I/usr/include/cairo
 
 if SAMPLES
      SAMPLE_PROGS = CustomPaper

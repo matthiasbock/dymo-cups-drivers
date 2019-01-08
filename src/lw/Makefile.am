@@ -45,7 +45,7 @@ raster2dymolw_SOURCES = \
     
 raster2dymolw_LDADD = $(CUPS_LIBS)
 
-INCLUDES = -I../common
+AM_CPPFLAGS = -I../common
 
 #
 #  End of $Id: Makefile.am 4759 2008-06-19 19:02:27Z vbuzuev $
