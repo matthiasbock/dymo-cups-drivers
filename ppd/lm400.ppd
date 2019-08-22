@@ -43,7 +43,7 @@
 *ModelName: "DYMO LabelMANAGER 400"
 *NickName: "DYMO LabelMANAGER 400"
 *ShortNickName: "DYMO LabelMANAGER 400"
-*APPrinterIconPath: "/Library/Printers/DYMO/CUPS/Resources/LM450.icns"
+*APPrinterIconPath: "/Library/Printers/DYMO/CUPS/Resources/LM400.icns"
 
 *cupsIPPReason com.dymo.out-of-paper-error/Out of labels. : ""
 *cupsIPPReason com.dymo.read-error/Cannot read data from printer. : ""
