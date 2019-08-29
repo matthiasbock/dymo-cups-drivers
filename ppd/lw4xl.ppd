@@ -42,7 +42,6 @@
 *ModelName: "DYMO LabelWriter 4XL"
 *NickName: "DYMO LabelWriter 4XL"
 *ShortNickName: "DYMO LabelWriter 4XL"
-*APPrinterIconPath: "/Library/Printers/DYMO/CUPS/Resources/LW4XL.icns"
 
 *cupsIPPReason com.dymo.out-of-paper-error/Out of labels. : ""
 *cupsIPPReason com.dymo.read-error/Cannot read data from printer. : ""

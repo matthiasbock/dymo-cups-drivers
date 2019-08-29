@@ -42,7 +42,6 @@
 *ModelName: "DYMO LabelWriter 320"
 *NickName: "DYMO LabelWriter 320"
 *ShortNickName: "DYMO LabelWriter 320"
-*APPrinterIconPath: "/Library/Printers/DYMO/CUPS/Resources/LW320.icns"
 
 *cupsIPPReason com.dymo.out-of-paper-error/Out of labels. : ""
 *cupsIPPReason com.dymo.read-error/Cannot read data from printer. : ""

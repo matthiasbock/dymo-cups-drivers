@@ -42,7 +42,6 @@
 *ModelName: "DYMO LabelWriter DUO Label"
 *NickName: "DYMO LabelWriter DUO Label"
 *ShortNickName: "DYMO LabelWriter DUO Label"
-*APPrinterIconPath: "/Library/Printers/DYMO/CUPS/Resources/LWDuo.icns"
 
 *cupsIPPReason com.dymo.out-of-paper-error/Out of labels. : ""
 *cupsIPPReason com.dymo.read-error/Cannot read data from printer. : ""

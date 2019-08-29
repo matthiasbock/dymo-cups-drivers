@@ -42,7 +42,6 @@
 *ModelName: "DYMO LabelMANAGER PC II"
 *NickName: "DYMO LabelMANAGER PC II"
 *ShortNickName: "DYMO LabelMANAGER PC II"
-*APPrinterIconPath: "/Library/Printers/DYMO/CUPS/Resources/LMPC2.icns"
 
 *cupsIPPReason com.dymo.out-of-paper-error/Out of labels. : ""
 *cupsIPPReason com.dymo.read-error/Cannot read data from printer. : ""
