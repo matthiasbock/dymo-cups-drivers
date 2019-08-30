@@ -42,7 +42,6 @@
 *ModelName: "DYMO LabelWriter SE450"
 *NickName: "DYMO LabelWriter SE450"
 *ShortNickName: "DYMO LabelWriter SE450"
-*APPrinterIconPath: "/Library/Printers/DYMO/CUPS/Resources/LW450.icns"
 
 *cupsIPPReason com.dymo.out-of-paper-error/Out of labels. : ""
 *cupsIPPReason com.dymo.read-error/Cannot read data from printer. : ""

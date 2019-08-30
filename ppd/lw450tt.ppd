@@ -42,7 +42,6 @@
 *ModelName: "DYMO LabelWriter 450 Twin Turbo"
 *NickName: "DYMO LabelWriter 450 Twin Turbo"
 *ShortNickName: "DYMO LabelWriter 450 Twin Turbo"
-*APPrinterIconPath: "/Library/Printers/DYMO/CUPS/Resources/LW450TT.icns"
 
 *cupsIPPReason com.dymo.out-of-paper-error/Out of labels. : ""
 *cupsIPPReason com.dymo.read-error/Cannot read data from printer. : ""

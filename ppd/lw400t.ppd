@@ -42,7 +42,6 @@
 *ModelName: "DYMO LabelWriter 400 Turbo"
 *NickName: "DYMO LabelWriter 400 Turbo"
 *ShortNickName: "DYMO LabelWriter 400 Turbo"
-*APPrinterIconPath: "/Library/Printers/DYMO/CUPS/Resources/LW400T.icns"
 
 *cupsIPPReason com.dymo.out-of-paper-error/Out of labels. : ""
 *cupsIPPReason com.dymo.read-error/Cannot read data from printer. : ""
