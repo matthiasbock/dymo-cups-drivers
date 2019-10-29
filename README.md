@@ -53,18 +53,32 @@ This repository contains an inofficial copy of Dymo's CUPS printer driver for Li
 
 ## Build instructions
 
-To compile and install source package you will need:
-  - recent C++ compiler. We used gcc ver. 3.3.5 & 4.0.1
-  - installed CUPS *.h files (cups/cups.h, cups/raster.h)
-  - installed CUPS libraries (libcups, libcupsimage)
-  
-To compile sources run follow commands from the package directory:
+Requirements:
+  - GNU Autotools
+  - GNU C and C++ compilers
+  - CUPS header files (cups/cups.h, cups/raster.h)
+  - CUPS libraries (libcups, libcupsimage)
+
+To compile the sources run the following commands:
 ```sh
+ autoscan
+ aclocal
+ autoconf
+ autoheader
+ # This is a temporary workaround:
+ touch NEWS AUTHORS README ChangeLog
+ automake --add-missing
+ automake
  ./configure
  make
 ```
 
-To install compiled binaries and data files use command (you have to have root privileges):
+On Linux systems you can alternatively type:
+```sh
+ ./build.sh
+```
+
+To install the compiled binaries and data files use this command (this will require root privileges):
 ```sh
  make install
  ```
@@ -80,3 +94,5 @@ To avoid it pass proper directories to "configure" script using environment vari
 $ cups_datadir='/usr/local/share/cups' cups_serverbindir='/usr/local/lib/cups' ./configure
 
 Default directories for CUPS are '/usr/share/cups' and '/usr/lib/cups'
+
+
