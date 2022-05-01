@@ -43,7 +43,15 @@ dist_cupsmodel_DATA = \
     lw450tt.ppd \
     lw450dl.ppd \
     lw450dt.ppd \
-    se450.ppd
+    se450.ppd \
+    lmmls.ppd \
+    lw550.ppd \
+    lw550p.ppd \
+    lw550t.ppd \
+    lw550tp.ppd \
+    lw5xl.ppd \
+    lw5xlp.ppd \
+    lww.ppd
     
 tests = testppd
 check_PROGRAMS = testppd

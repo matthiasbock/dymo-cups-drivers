@@ -9,6 +9,7 @@ config.log
 config.status
 aclocal.m4
 src/stamp-h1
+src_v2/stamp-h2
 
 # Generated during compilation
 *.o
@@ -19,6 +20,8 @@ src/stamp-h1
 *.lo
 src/lm/raster2dymolm
 src/lw/raster2dymolw
+src_v2/lm/raster2dymolm_v2
+src_v2/lw/raster2dymolw_v2
 
 # Eclipse project files
 .cproject
