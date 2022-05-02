@@ -41,7 +41,6 @@
 *ModelName: "DYMO LabelWriter 550 Pro"
 *NickName: "DYMO LabelWriter 550 Pro"
 *ShortNickName: "DYMO LabelWriter 550 Pro"
-*APPrinterIconPath: "/Library/Printers/DYMO/Icons/LW550P.icns"
 
 *cupsIPPReason com.dymo.out-of-paper-error/Out of labels. : ""
 *cupsIPPReason com.dymo.read-error/Cannot read data from printer. : ""

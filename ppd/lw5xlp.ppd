@@ -41,7 +41,6 @@
 *ModelName: "DYMO LabelWriter 5XL Pro"
 *NickName: "DYMO LabelWriter 5XL Pro"
 *ShortNickName: "DYMO LabelWriter 5XL Pro"
-*APPrinterIconPath: "/Library/Printers/DYMO/Icons/LW5XLP.icns"
 
 *cupsIPPReason com.dymo.out-of-paper-error/Out of labels. : ""
 *cupsIPPReason com.dymo.read-error/Cannot read data from printer. : ""

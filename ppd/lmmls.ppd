@@ -40,7 +40,6 @@
 *ModelName: "DYMO MobileLabeler"
 *NickName: "DYMO MobileLabeler"
 *ShortNickName: "DYMO MobileLabeler"
-*APPrinterIconPath: "/Library/Printers/DYMO/Icons/LMMLS.icns"
 
 *cupsIPPReason com.dymo.out-of-paper-error/Out of labels. : ""
 *cupsIPPReason com.dymo.read-error/Cannot read data from printer. : ""
