@@ -112,9 +112,13 @@ public:
       switch(_inputImageType)
       {
          case itXRGB:
-            return (int(InputLine[4 * PixelNo + 1]) << 16) || (int(InputLine[4 * PixelNo + 2]) << 8) || (InputLine[4 * PixelNo + 3]);
+            return (int(InputLine[4 * PixelNo + 1]) << 16)
+                   | (int(InputLine[4 * PixelNo + 2]) << 8)
+                   | (InputLine[4 * PixelNo + 3]);
          case itRGB:
-            return (int(InputLine[3 * PixelNo + 0]) << 16) || (int(InputLine[3 * PixelNo + 1]) << 8) || (InputLine[3 * PixelNo + 2]);
+            return (int(InputLine[3 * PixelNo + 0]) << 16)
+                   | (int(InputLine[3 * PixelNo + 1]) << 8)
+                   | (InputLine[3 * PixelNo + 2]);
          default:
             // We shouldn't come here!
             return -1;
