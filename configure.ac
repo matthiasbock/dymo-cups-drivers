@@ -21,7 +21,7 @@ AC_PREREQ(2.59)
 AC_INIT(dymo-cups-drivers, 1.4.0.5, vbuzuev@dymo.com)
 AM_INIT_AUTOMAKE([subdir-objects])
 AC_CONFIG_SRCDIR([src/lw/CupsFilterLabelWriter.h])
-AC_CONFIG_HEADER([src/config.h])
+AC_CONFIG_HEADER([config.h])
 
 # get cups dirs
 # if there is cups-config utility - use it
@@ -96,6 +96,9 @@ AC_CHECK_LIB(cups, cupsMarkOptions, , AC_ERROR([Can't find cups library]))
 AC_CHECK_LIB(cupsimage, cupsRasterReadHeader, , AC_ERROR([Can't find cupsimage library]))
 AC_CHECK_HEADERS([cups/cups.h cups/raster.h],, AC_ERROR([Can't find cups headers]))
 
+AC_CHECK_LIB(pthread, pthread_create,, AC_ERROR([Can't find pthread library]))
+AC_CHECK_HEADERS([pthread.h],, AC_ERROR([Can't find pthread headers]))
+
 #CUPS_LIBS=`cups-config --image --libs`
 #CUPS_LIBS="-lcups -lcupsimage"
 CUPS_LIBS=""
@@ -120,7 +123,7 @@ AC_TYPE_SIZE_T
 # Checks for library functions.
 AC_CHECK_FUNCS([memset strcasecmp])
 
-AC_CONFIG_FILES([Makefile src/Makefile src/common/tests/Makefile src/lm/Makefile src/lm/tests/Makefile src/lw/Makefile src/lw/tests/Makefile ppd/Makefile docs/Makefile samples/Makefile samples/paper_list/Makefile samples/paper_bounds/Makefile samples/test_label/Makefile samples/custom_paper/Makefile samples/custom_paper_tape/Makefile])
+AC_CONFIG_FILES([Makefile src/Makefile src/common/tests/Makefile src/lm/Makefile src/lm/tests/Makefile src/lw/Makefile src/lw/tests/Makefile src_v2/Makefile src_v2/common/tests/Makefile src_v2/lm/Makefile src_v2/lm/tests/Makefile src_v2/lw/Makefile src_v2/lw/tests/Makefile ppd/Makefile docs/Makefile samples/Makefile samples/paper_list/Makefile samples/paper_bounds/Makefile samples/test_label/Makefile samples/custom_paper/Makefile samples/custom_paper_tape/Makefile])
 AC_OUTPUT
 
 
