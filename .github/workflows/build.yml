@@ -28,7 +28,7 @@ jobs:
       - name: Install build dependencies
         run: |
           sudo apt-get update
-          sudo apt-get install -q -y --no-install-recommends libcups2-dev libcupsimage2-dev
+          sudo apt-get install -q -y --no-install-recommends libcups2-dev libcupsimage2-dev libboost-dev
 
       - name: Build
         run: |
