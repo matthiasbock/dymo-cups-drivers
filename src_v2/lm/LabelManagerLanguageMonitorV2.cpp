@@ -21,7 +21,7 @@
 #include "LabelManagerLanguageMonitorV2.h"
 
 #include <unistd.h>
-
+#include <ctime>
 namespace DymoPrinterDriver
 {
 
