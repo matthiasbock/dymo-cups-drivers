@@ -29,7 +29,8 @@ This repository contains an inofficial copy of Dymo's CUPS printer driver for Li
 * DYMO LabelMANAGER 450
 * DYMO LabelMANAGER PC
 * DYMO LabelMANAGER PC II
-* DYMO LabelManager PnP
+* DYMO LabelManager PnP*
+* DYMO LabelManager Wireless PnP*
 * DYMO LabelPOINT 350
 * DYMO LabelWriter 300
 * DYMO LabelWriter 310
@@ -50,6 +51,8 @@ This repository contains an inofficial copy of Dymo's CUPS printer driver for Li
 * DYMO LabelWriter DUO Tape 128
 * DYMO LabelWriter SE450
 * DYMO LabelWriter Twin Turbo
+
+*`usb_modeswitch` required (`usb_storage` kernel module loaded) when connected via USB
 
 ## Build instructions
 
