@@ -170,6 +170,16 @@ CDriverInitializerLabelManager::ProcessPPDOptions(CLabelManagerDriver& Driver, C
     Driver.SetSupportAutoCut(false);
   }
 
+  if (!strcasecmp(ppd->modelname, "DYMO LabelManager Wireless PnP"))
+  {
+     Driver.SetMaxPrintableWidth(256);
+     Driver.SetNormalLeader(125);
+     Driver.SetMinLeader(92);
+     Driver.SetAlignedLeader(72);
+     Driver.SetMinPageLines(222);
+     Driver.SetSupportAutoCut(true);
+  }
+
   if (!strcasecmp(ppd->modelname, "DYMO LabelMANAGER 420P"))
   {
     Driver.SetMaxPrintableWidth(128);

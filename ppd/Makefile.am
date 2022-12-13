@@ -24,6 +24,7 @@ dist_cupsmodel_DATA = \
     lmpc.ppd \
     lmpc2.ppd \
     lmpnp.ppd \
+    lmwpnp.ppd \
     lp350.ppd \
     lw300.ppd \
     lw310.ppd \
