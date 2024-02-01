@@ -24,6 +24,7 @@ README
 autom4te.cache
 aclocal.m4
 .deps
+.dirstamp
 Makefile.in
 Makefile
 config.h.in

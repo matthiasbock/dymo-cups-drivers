@@ -1,12 +1,14 @@
+
 # Dymo CUPS printer driver
 
-This repository contains an inofficial copy of Dymo's CUPS printer driver for Linux.
+This repository is derived from the official Dymo CUPS printer driver for Linux by Vladimir Buzuev.
 
-## Authors
 
-* Vladimir Buzuev <vbuzuev@dymo.com>
+## Usage
 
-## Command examples
+With this driver, Dymo label printers are usable like any other printer via CUPS.
+
+Example using lpr:
 
 * print very long text on a tape:
 ```sh
@@ -23,6 +25,7 @@ This repository contains an inofficial copy of Dymo's CUPS printer driver for Li
  lpr -o PageSize=Address_Label -o CutOptions=ChainMarks -o LabelAlignment=Right -o TapeColor=1
 ```
 
+
 ## Supported devices
 
 * DYMO LabelMANAGER 400
@@ -30,7 +33,8 @@ This repository contains an inofficial copy of Dymo's CUPS printer driver for Li
 * DYMO LabelMANAGER PC
 * DYMO LabelMANAGER PC II
 * DYMO LabelManager PnP*
-* DYMO LabelManager Wireless PnP*
+* DYMO LabelManager Wireless PnP
+  * Note: `usb_modeswitch` required when connected via USB (`usb_storage` kernel module loaded)
 * DYMO LabelPOINT 350
 * DYMO LabelWriter 300
 * DYMO LabelWriter 310
@@ -51,51 +55,3 @@ This repository contains an inofficial copy of Dymo's CUPS printer driver for Li
 * DYMO LabelWriter DUO Tape 128
 * DYMO LabelWriter SE450
 * DYMO LabelWriter Twin Turbo
-
-*`usb_modeswitch` required (`usb_storage` kernel module loaded) when connected via USB
-
-## Build instructions
-
-Requirements:
-  - GNU Autotools
-  - GNU C and C++ compilers
-  - CUPS header files (cups/cups.h, cups/raster.h)
-  - CUPS libraries (libcups, libcupsimage)
-
-To compile the sources run the following commands:
-```sh
- autoscan
- aclocal
- autoconf
- autoheader
- # This is a temporary workaround:
- touch NEWS AUTHORS README ChangeLog
- automake --add-missing
- automake
- ./configure
- make
-```
-
-On Linux systems you can alternatively type:
-```sh
- ./build.sh
-```
-
-To install the compiled binaries and data files use this command (this will require root privileges):
-```sh
- make install
- ```
-
-## Known Problems
-
-1. Error message "CUPS modeldir <dir> is not existed..."
-
-While running "configure" script tries to determine where CUPS is installed. 
-For that it uses 'cups-config' utility if existed or uses default values for the dirs.
-If CUPS is installed into different directories you might see the above error message.
-To avoid it pass proper directories to "configure" script using environment variables, e.g.
-$ cups_datadir='/usr/local/share/cups' cups_serverbindir='/usr/local/lib/cups' ./configure
-
-Default directories for CUPS are '/usr/share/cups' and '/usr/lib/cups'
-
-
