@@ -10,9 +10,10 @@ autoconf
 
 autoheader
 # a workaround
-touch NEWS AUTHORS README ChangeLog
+touch NEWS AUTHORS INSTALL README ChangeLog
 automake --add-missing
 automake
+rm NEWS AUTHORS INSTALL README ChangeLog
 
 ./configure
 
